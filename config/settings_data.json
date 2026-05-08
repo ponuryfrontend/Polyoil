@@ -53,6 +53,7 @@
     "cart_title_style": "uppercase",
     "cart_item_title_style": "uppercase",
     "enable_cart_drawer_collection": true,
+    "enable_loading_delay": true,
     "enable_global_animations": true,
     "sticky_add_to_cart_color_scheme": "background-1",
     "show_sticky_add_to_cart_quantity_selector": false,
