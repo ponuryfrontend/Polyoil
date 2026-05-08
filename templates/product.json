@@ -67,7 +67,7 @@
           "settings": {
             "display_type": "accordion",
             "faq_open": false,
-            "faqs_question": "Description",
+            "faqs_question": "Opis produktu",
             "title_style": "normal",
             "faqs_answer": "{{ product.description }}"
           }
