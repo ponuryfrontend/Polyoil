@@ -59,13 +59,20 @@
       "blocks": {
         "logo": {
           "type": "logo",
-          "settings": {}
+          "settings": {
+            "logo_width": 100,
+            "heading": "Heading",
+            "title_style": "normal",
+            "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>",
+            "subtext_two": "<p>Brand Name,<br> 150 Elgin Street,<br> Ottawa,<br> Ontario,<br> Canada,<br> K2P 1L4</p>"
+          }
         },
         "linklist": {
           "type": "link_list",
           "settings": {
             "heading": "Additional Links",
             "title_style": "normal",
+            "menu": "main-menu",
             "menu_size": "medium",
             "menu_style": "uppercase"
           }
@@ -75,6 +82,7 @@
           "settings": {
             "heading": "Additional Links",
             "title_style": "normal",
+            "menu": "main-menu",
             "menu_size": "medium",
             "menu_style": "uppercase"
           }
@@ -84,6 +92,7 @@
           "settings": {
             "heading": "Additional Links",
             "title_style": "normal",
+            "menu": "main-menu",
             "menu_size": "medium",
             "menu_style": "uppercase"
           }
@@ -96,11 +105,13 @@
         "linklist3"
       ],
       "settings": {
-        "color_scheme": "background-3",
+        "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
         "large_logo_width": 100,
         "menu": "footer",
         "enable_follow_on_shop": false,
         "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": false,
         "locale_display_type": "icon_and_text",
         "payment_enable": true,
         "enable_animation": true
