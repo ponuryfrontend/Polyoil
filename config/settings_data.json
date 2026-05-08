@@ -97,7 +97,7 @@
       "sign-up-modal": {
         "type": "sign-up-modal",
         "settings": {
-          "enabled": true,
+          "enabled": false,
           "heading": "Sign up & Save",
           "title_style": "normal",
           "content": "Sign up today and get special product releases and exclusive sales!",
