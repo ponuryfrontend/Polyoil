@@ -24,6 +24,7 @@
     "buttons_style": "uppercase",
     "buttons_arrow": false,
     "variant_pills_radius": 4,
+    "variant_swatch_size": 20,
     "inputs_radius": 0,
     "colors_sale": "#ff6060",
     "image_ratio": "square",
