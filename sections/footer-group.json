@@ -70,9 +70,9 @@
         "linklist2": {
           "type": "link_list",
           "settings": {
-            "heading": "Additional Links",
+            "heading": "Regulacje prawne",
             "title_style": "normal",
-            "menu": "main-menu",
+            "menu": "polityki-prawne",
             "menu_size": "medium",
             "menu_style": "uppercase"
           }
