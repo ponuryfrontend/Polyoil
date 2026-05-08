@@ -60,11 +60,11 @@
         "linklist": {
           "type": "link_list",
           "settings": {
-            "heading": "Additional Links",
+            "heading": "Polyoil",
             "title_style": "normal",
-            "menu": "main-menu",
+            "menu": "o-nas",
             "menu_size": "medium",
-            "menu_style": "uppercase"
+            "menu_style": "normal"
           }
         },
         "linklist3": {
