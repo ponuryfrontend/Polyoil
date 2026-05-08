@@ -48,10 +48,10 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "show_border_bottom": false,
+        "show_border_bottom": true,
         "button_color_scheme": "button",
         "enable_fullwidth": false,
-        "title": "Contact form",
+        "title": "Formularz kontaktowy",
         "title_style": "normal",
         "subheading": "<p>Send us your query, we are happy to help</p>",
         "padding_top": 120,
