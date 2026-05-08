@@ -67,6 +67,16 @@
             "menu_style": "uppercase"
           }
         },
+        "linklist3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Obsługa Klienta",
+            "title_style": "normal",
+            "menu": "obs-uga-klienta",
+            "menu_size": "medium",
+            "menu_style": "normal"
+          }
+        },
         "linklist2": {
           "type": "link_list",
           "settings": {
@@ -74,17 +84,7 @@
             "title_style": "normal",
             "menu": "polityki-prawne",
             "menu_size": "medium",
-            "menu_style": "uppercase"
-          }
-        },
-        "linklist3": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Additional Links",
-            "title_style": "normal",
-            "menu": "main-menu",
-            "menu_size": "medium",
-            "menu_style": "uppercase"
+            "menu_style": "normal"
           }
         },
         "logo": {
@@ -101,8 +101,8 @@
       },
       "block_order": [
         "linklist",
-        "linklist2",
         "linklist3",
+        "linklist2",
         "logo"
       ],
       "settings": {
