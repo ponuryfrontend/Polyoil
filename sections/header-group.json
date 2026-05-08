@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "type": "header",
   "name": "Header Group",
   "sections": {
@@ -17,7 +17,7 @@
         "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe": {
           "type": "announcement",
           "settings": {
-            "text": "Free Delivery Over {50.00}",
+            "text": "Darmowa dostawa od 150 PLN",
             "link": ""
           }
         }
