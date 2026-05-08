@@ -220,6 +220,27 @@
           "button_secondary_border_hover": "#273024",
           "border": "#e6e6e6"
         }
+      },
+      "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640": {
+        "settings": {
+          "text": "#ffffff",
+          "text_secondary": "#ffffff",
+          "background": "#3485c5",
+          "background_gradient": "",
+          "button": "#404c3c",
+          "button_label": "#ffffff",
+          "button_border": "#404c3c",
+          "button_hover": "#273024",
+          "button_label_hover": "#ffffff",
+          "button_border_hover": "#273024",
+          "button_secondary": "#ffffff",
+          "button_secondary_label": "#404c3c",
+          "button_secondary_border": "#404c3c",
+          "button_secondary_hover": "#404c3c",
+          "button_secondary_label_hover": "#ffffff",
+          "button_secondary_border_hover": "#404c3c",
+          "border": "#f7f8f7"
+        }
       }
     }
   },
