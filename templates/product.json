@@ -77,9 +77,9 @@
           "settings": {
             "display_type": "accordion",
             "faq_open": false,
-            "faqs_question": "Ingredients",
+            "faqs_question": "Wysyłka",
             "title_style": "normal",
-            "faqs_answer": "<p>Add your content here</p>"
+            "faqs_answer": ""
           }
         },
         "collapsible_content_wGb9pj": {
@@ -87,9 +87,9 @@
           "settings": {
             "display_type": "accordion",
             "faq_open": false,
-            "faqs_question": "Delivery & Returns",
+            "faqs_question": "Zwroty",
             "title_style": "normal",
-            "faqs_answer": "<p>Add your content here</p>"
+            "faqs_answer": ""
           }
         }
       },
