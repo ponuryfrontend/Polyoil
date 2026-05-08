@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-addresses",
+      "settings": {
+        "addresses_intro": "View and edit all your addresses.",
+        "addresses_details_heading": "Addresses Overview"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

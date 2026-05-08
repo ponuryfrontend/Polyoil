@@ -1,0 +1,114 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter sign up heading",
+            "title_style": "normal",
+            "heading_size": "h3"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Sign up today and get special product releases and exclusive sales!</p>"
+          }
+        },
+        "form": {
+          "type": "email_form",
+          "settings": {
+            "form_style": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "form"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "show_border_bottom": false,
+        "button_color_scheme": "button",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 68,
+        "mobile_padding_top": 44,
+        "mobile_padding_bottom": 44,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "logo": {
+          "type": "logo",
+          "settings": {}
+        },
+        "linklist": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Additional Links",
+            "title_style": "normal",
+            "menu_size": "medium",
+            "menu_style": "uppercase"
+          }
+        },
+        "linklist2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Additional Links",
+            "title_style": "normal",
+            "menu_size": "medium",
+            "menu_style": "uppercase"
+          }
+        },
+        "linklist3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Additional Links",
+            "title_style": "normal",
+            "menu_size": "medium",
+            "menu_style": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "logo",
+        "linklist",
+        "linklist2",
+        "linklist3"
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "large_logo_width": 100,
+        "menu": "footer",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "locale_display_type": "icon_and_text",
+        "payment_enable": true,
+        "enable_animation": true
+      }
+    }
+  },
+  "order": [
+    "newsletter",
+    "footer"
+  ]
+}

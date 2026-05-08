@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "account_greeting": "Hi",
+        "account_intro": "Posuere massa dui vitae fermentum urna, velit rhoncus in duis.",
+        "account_details_heading": "Account Overview"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
