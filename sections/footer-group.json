@@ -57,16 +57,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "logo": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 100,
-            "heading": "Heading",
-            "title_style": "normal",
-            "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>",
-            "subtext_two": "<p>Brand Name,<br> 150 Elgin Street,<br> Ottawa,<br> Ontario,<br> Canada,<br> K2P 1L4</p>"
-          }
-        },
         "linklist": {
           "type": "link_list",
           "settings": {
@@ -96,13 +86,24 @@
             "menu_size": "medium",
             "menu_style": "uppercase"
           }
+        },
+        "logo": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Zrzut_ekranu_2026-04-29_o_10.08.32.png",
+            "logo_width": 120,
+            "heading": "",
+            "title_style": "normal",
+            "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>",
+            "subtext_two": ""
+          }
         }
       },
       "block_order": [
-        "logo",
         "linklist",
         "linklist2",
-        "linklist3"
+        "linklist3",
+        "logo"
       ],
       "settings": {
         "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
