@@ -36,8 +36,8 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "background-1",
-        "accent_color": "#e9f0ca",
+        "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
+        "accent_color": "#3485c5",
         "menu": "main-menu",
         "menu_size": "medium",
         "menu_active_link_icon": "underline",
