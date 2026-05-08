@@ -46,7 +46,7 @@
         "tag-0": {
           "type": "tag",
           "settings": {
-            "content": "Add content",
+            "content": "Wysoka zawartość polifenoli.\nNaturalne antyoksydanty wspierające organizm.",
             "title_style": "normal",
             "link": ""
           }
@@ -62,7 +62,7 @@
         "tag_yrwk3X": {
           "type": "tag",
           "settings": {
-            "content": "Add content",
+            "content": "100% Extra Virgin.\nNajwyższa jakość i czysty skład.",
             "title_style": "normal",
             "link": ""
           }
@@ -78,7 +78,7 @@
         "tag_KgjhRV": {
           "type": "tag",
           "settings": {
-            "content": "Add content",
+            "content": "Z oliwek Koroneiki.\nGrecka odmiana ceniona za smak i jakość.",
             "title_style": "normal",
             "link": ""
           }
@@ -94,7 +94,7 @@
         "tag_w3Fqhz": {
           "type": "tag",
           "settings": {
-            "content": "Add content",
+            "content": "Naturalnie każdego dnia.\nIdealna do zdrowej codziennej diety.",
             "title_style": "normal",
             "link": ""
           }
@@ -110,7 +110,7 @@
         "tag_KEUDyE": {
           "type": "tag",
           "settings": {
-            "content": "Add content",
+            "content": "Świeży zbiór - pełnia smaku i wartości odżywczych.",
             "title_style": "normal",
             "link": ""
           }
@@ -120,54 +120,6 @@
           "settings": {
             "content": "•",
             "title_style": "normal",
-            "link": ""
-          }
-        },
-        "tag_Dkcf6R": {
-          "type": "tag",
-          "settings": {
-            "content": "Add content",
-            "title_style": "normal",
-            "link": ""
-          }
-        },
-        "tag_yxGdKC": {
-          "type": "tag",
-          "settings": {
-            "content": "•",
-            "title_style": "normal",
-            "link": ""
-          }
-        },
-        "tag_Pw8kMy": {
-          "type": "tag",
-          "settings": {
-            "content": "Add content",
-            "title_style": "normal",
-            "link": ""
-          }
-        },
-        "tag_zdEANW": {
-          "type": "tag",
-          "settings": {
-            "content": "•",
-            "title_style": "normal",
-            "link": ""
-          }
-        },
-        "tag_XgrNqW": {
-          "type": "tag",
-          "settings": {
-            "content": "Add content",
-            "title_style": "normal",
-            "link": ""
-          }
-        },
-        "tag_pUeiwe": {
-          "type": "tag",
-          "settings": {
-            "content": "•",
-            "title_style": "uppercase",
             "link": ""
           }
         }
@@ -182,13 +134,7 @@
         "tag_w3Fqhz",
         "tag_6rqe4G",
         "tag_KEUDyE",
-        "tag_RzEDnm",
-        "tag_Dkcf6R",
-        "tag_yxGdKC",
-        "tag_Pw8kMy",
-        "tag_zdEANW",
-        "tag_XgrNqW",
-        "tag_pUeiwe"
+        "tag_RzEDnm"
       ],
       "settings": {
         "color_scheme": "background-3",
