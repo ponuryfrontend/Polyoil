@@ -123,6 +123,7 @@
   },
   "products": {
     "product": {
+      "lowest_price_30_days": "The lowest price from the last 30 days: ",
       "add_to_cart": "Add to cart",
       "description": "Description",
       "on_sale": "Sale",

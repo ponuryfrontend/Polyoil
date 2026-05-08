@@ -124,6 +124,7 @@
   },
   "products": {
     "product": {
+      "lowest_price_30_days": "Najniższa cena z ostatnich 30 dni: ",
       "add_to_cart": "Dodaj do koszyka",
       "description": "Opis",
       "on_sale": "Sprzedaż",

@@ -1,0 +1,15 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign lowest_price = current_variant.price
+-%}
+
+{{ 'lowest-price-30-days.css' | asset_url | stylesheet_tag }}
+
+<p class="lowest-price-30-days">
+  <span class="lowest-price-30-days__label">
+  {{ 'products.product.lowest_price_30_days' | t | default: 'Lowest price (30 days):' }}
+  </span>
+  <span class="lowest-price-30-days__price">
+    {{ lowest_price | money }}
+  </span>
+</p>

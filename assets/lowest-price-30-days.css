@@ -1,0 +1,15 @@
+.lowest-price-30-days {
+	margin: 0.7em 0 0;
+	font-size: 1.15rem;
+	line-height: 1.4;
+	color: rgba(var(--color-foreground), 0.75);
+}
+
+.lowest-price-30-days__label {
+	margin-right: 4px;
+}
+
+.lowest-price-30-days__price {
+	font-weight: 400;
+	color: rgb(var(--color-foreground));
+}

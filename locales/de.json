@@ -122,6 +122,7 @@
   },
   "products": {
     "product": {
+      "lowest_price_30_days": "Niedrigster Preis der letzten 30 Tage: ",
       "add_to_cart": "In den Warenkorb",
       "description": "Beschreibung",
       "on_sale": "Angebot",
