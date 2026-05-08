@@ -43,7 +43,7 @@
         "menu_active_link_icon": "underline",
         "show_line_separator": false,
         "header_position_type": "sticky",
-        "layout_on_desktop": "logo-left-nav-center",
+        "layout_on_desktop": "logo-center-nav-left",
         "enable_search": true,
         "utility_links_type": "icon",
         "search_label": "Search",
