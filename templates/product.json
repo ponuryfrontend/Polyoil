@@ -49,8 +49,13 @@
             "buy_button_color_scheme": "button"
           }
         },
+        "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
         "usp_JTCnmF": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
             "title_style": "normal",
@@ -99,6 +104,7 @@
         "price",
         "variant_picker",
         "buy_buttons",
+        "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6",
         "usp_JTCnmF",
         "collapsible_content_NghLWy",
         "collapsible_content_KAjL8B",
