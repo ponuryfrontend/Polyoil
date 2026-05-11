@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_tmhzMp": {
+          "type": "announcement",
+          "settings": {
+            "text": "14 dni na zwrot zamówienia",
+            "link": ""
+          }
+        },
         "announcement_bLkrpH": {
           "type": "announcement",
           "settings": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "announcement_tmhzMp",
         "announcement_bLkrpH",
         "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe"
       ],
