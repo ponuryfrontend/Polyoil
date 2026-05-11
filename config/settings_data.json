@@ -37,7 +37,7 @@
     "product_card_show_vendor": false,
     "product_card_title_style": "normal",
     "product_card_show_desc": false,
-    "enable_quick_view": true,
+    "enable_quick_view": false,
     "quick_view_type": "text",
     "quick_view_trigger_color_scheme": "background-3",
     "quick_view_text": "Szybki podgląd",
