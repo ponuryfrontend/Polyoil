@@ -225,13 +225,52 @@
         "enable_animation": true
       }
     },
+    "images_and_text_XH7EHN": {
+      "type": "images-and-text",
+      "blocks": {
+        "content_VLDimK": {
+          "type": "content",
+          "settings": {
+            "heading": "Z gajów Peloponezu do Twojej kuchni",
+            "heading_icon": true,
+            "title_style": "uppercase",
+            "heading_size": "h3",
+            "paragraph": "<p>Nasza oliwa pochodzi z rodzinnych gajów oliwnych, gdzie tradycja uprawy przekazywana jest z pokolenia na pokolenie. Wykorzystujemy tylko wczesne zbiory, co gwarantuje intensywny smak i najwyższą zawartość antyoksydantów.</p>",
+            "link": "/",
+            "link_text": "Poznaj naszą historię",
+            "button_color_scheme": "button"
+          }
+        }
+      },
+      "block_order": [
+        "content_VLDimK"
+      ],
+      "name": "t:sections.image-text.presets.name",
+      "settings": {
+        "primary_image": "shopify://shop_images/oliwkowy_grecki_gaj.jpg",
+        "delay_loader": false,
+        "aspect_ratio": "portrait",
+        "primary_image_style": "image-border-radius--none",
+        "image_icon": false,
+        "color_scheme": "background-1",
+        "show_border_bottom": true,
+        "section_layout": "text_first",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 120,
+        "mobile_margin_bottom": 60,
+        "enable_animation": true
+      }
+    },
     "rich_text_bfM4A9": {
       "type": "rich-text",
       "blocks": {
         "heading_Vfth4e": {
           "type": "heading",
           "settings": {
-            "heading": "Z gajów Peloponezu do Twojej kuchni",
+            "heading": "Wysoka zawartość polifenoli",
             "title_style": "uppercase",
             "heading_size": "h3",
             "heading_alignment": "rich-text--central-alignment",
@@ -242,24 +281,14 @@
         "paragraph_gziXfD": {
           "type": "paragraph",
           "settings": {
-            "rich_text": "<p>Polifenole</p><h3></h3>",
+            "rich_text": "<p>Polifenole to naturalne przeciwutleniacze, które chronią organizm i nadają oliwie charakterystyczny, lekko pikantny smak. Nasza oliwa przekracza standardowe normy, dostarczając tobie maksimum korzyści zdrowotnych z każdej kropli.</p><h3></h3>",
             "text_alignment": "rich-text--central-alignment"
-          }
-        },
-        "link_kUw8tC": {
-          "type": "link",
-          "settings": {
-            "link": "/",
-            "link_text": "Add a link text",
-            "link_alignment": "rich-text--central-alignment",
-            "button_color_scheme": "button button--secondary"
           }
         }
       },
       "block_order": [
         "heading_Vfth4e",
-        "paragraph_gziXfD",
-        "link_kUw8tC"
+        "paragraph_gziXfD"
       ],
       "settings": {
         "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
@@ -267,8 +296,8 @@
         "full_width": true,
         "content_width_range": 100,
         "content_position": "middle",
-        "padding_top": 56,
-        "padding_bottom": 32,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "mobile_padding_top": 44,
         "mobile_padding_bottom": 44,
         "margin_bottom": 0,
@@ -318,53 +347,14 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "images_and_text_XH7EHN": {
-      "type": "images-and-text",
-      "blocks": {
-        "content_VLDimK": {
-          "type": "content",
-          "settings": {
-            "heading": "Z gajów Peloponezu do Twojej kuchni",
-            "heading_icon": true,
-            "title_style": "uppercase",
-            "heading_size": "h3",
-            "paragraph": "<p>Nasza oliwa pochodzi z rodzinnych gajów oliwnych, gdzie tradycja uprawy przekazywana jest z pokolenia na pokolenie. Wykorzystujemy tylko wczesne zbiory, co gwarantuje intensywny smak i najwyższą zawartość antyoksydantów.</p>",
-            "link": "/",
-            "link_text": "Poznaj naszą historię",
-            "button_color_scheme": "button"
-          }
-        }
-      },
-      "block_order": [
-        "content_VLDimK"
-      ],
-      "name": "t:sections.image-text.presets.name",
-      "settings": {
-        "primary_image": "shopify://shop_images/oliwkowy_grecki_gaj.jpg",
-        "delay_loader": false,
-        "aspect_ratio": "portrait",
-        "primary_image_style": "image-border-radius--rounded-xxs",
-        "image_icon": false,
-        "color_scheme": "background-1",
-        "show_border_bottom": true,
-        "section_layout": "text_first",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "margin_bottom": 120,
-        "mobile_margin_bottom": 60,
-        "enable_animation": true
-      }
     }
   },
   "order": [
     "image_banner",
     "marquee",
     "featured_product_KWPM7p",
+    "images_and_text_XH7EHN",
     "rich_text_bfM4A9",
-    "1778493027aeabe9de",
-    "images_and_text_XH7EHN"
+    "1778493027aeabe9de"
   ]
 }
