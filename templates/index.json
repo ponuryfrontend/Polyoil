@@ -279,6 +279,39 @@
         "enable_animation": true
       }
     },
+    "image_banner_Ex3Gyg": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "height": "large",
+        "height_custom": 820,
+        "height_mobile": "large-mobile",
+        "height_mobile_custom": 760,
+        "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
+        "full_width": true,
+        "show_border_bottom": false,
+        "border_radius": "image-border-radius--none",
+        "image": "shopify://shop_images/widok-na-grecki-gaj-oliwny-z-oliwa-z-oliwek.jpg",
+        "delay_loader": false,
+        "heading": "",
+        "title_style": "normal",
+        "header_size": "h1",
+        "header_size_mobile": "h1-mobile",
+        "subheading": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+        "subheading_size": "p",
+        "text_alignment": "center",
+        "content_position": "bottom-center",
+        "show_gradient": false,
+        "link": "shopify://products/wysoko-polifenolowa-grecka-oliwa-z-oliwek-extra-virgin-polyoil",
+        "link_text": "DOWIEDZ SIĘ WIĘCEJ",
+        "button_color_scheme": "button",
+        "side_text": "",
+        "side_text_position": "left",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
     "rich_text_bfM4A9": {
       "type": "rich-text",
       "blocks": {
@@ -365,6 +398,7 @@
     "marquee",
     "featured_product_KWPM7p",
     "multicolumn_VmamUE",
+    "image_banner_Ex3Gyg",
     "rich_text_bfM4A9",
     "images_and_text_XH7EHN"
   ]
