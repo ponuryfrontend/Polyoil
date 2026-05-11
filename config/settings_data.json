@@ -33,7 +33,7 @@
     "background_transparent": true,
     "product_card_text_alignment": "left",
     "product_card_padding": 0,
-    "product_card_show_vendor": true,
+    "product_card_show_vendor": false,
     "product_card_title_style": "normal",
     "product_card_show_desc": false,
     "enable_quick_view": true,
