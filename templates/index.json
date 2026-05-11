@@ -226,6 +226,59 @@
         "enable_animation": true
       }
     },
+    "multicolumn_VmamUE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yVxWqc": {
+          "type": "column",
+          "settings": {
+            "column_heading": "Jakość",
+            "column_text": "Świeży zbiór, niska kwasowość i pełnia smaku"
+          }
+        },
+        "column_Y3PVCe": {
+          "type": "column",
+          "settings": {
+            "column_heading": "Serce",
+            "column_text": "Wsparcie ochrony lipidów krwi i układu krążenia"
+          }
+        },
+        "column_RNNmHR": {
+          "type": "column",
+          "settings": {
+            "column_heading": "Codzienność",
+            "column_text": "Łatwy sposób na zdrowy nawyk każdego dnia"
+          }
+        }
+      },
+      "block_order": [
+        "column_yVxWqc",
+        "column_Y3PVCe",
+        "column_RNNmHR"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "heading": "Add benefits or unique selling points of your store",
+        "heading_size": "h2",
+        "title_style": "normal",
+        "decorative-icon": false,
+        "link": "",
+        "link_text": "",
+        "button_color_scheme": "button",
+        "image_width": 100,
+        "primary_image_style": "image-border-radius--none",
+        "column_title_style": "normal",
+        "padding_top": 120,
+        "padding_bottom": 120,
+        "mobile_padding_top": 96,
+        "mobile_padding_bottom": 96,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
     "rich_text_bfM4A9": {
       "type": "rich-text",
       "blocks": {
@@ -311,6 +364,7 @@
     "image_banner",
     "marquee",
     "featured_product_KWPM7p",
+    "multicolumn_VmamUE",
     "rich_text_bfM4A9",
     "images_and_text_XH7EHN"
   ]
