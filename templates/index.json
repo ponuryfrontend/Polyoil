@@ -225,45 +225,6 @@
         "enable_animation": true
       }
     },
-    "images_and_text_XH7EHN": {
-      "type": "images-and-text",
-      "blocks": {
-        "content_VLDimK": {
-          "type": "content",
-          "settings": {
-            "heading": "Z gajów Peloponezu do Twojej kuchni",
-            "heading_icon": true,
-            "title_style": "uppercase",
-            "heading_size": "h3",
-            "paragraph": "<p>Nasza oliwa pochodzi z rodzinnych gajów oliwnych, gdzie tradycja uprawy przekazywana jest z pokolenia na pokolenie. Wykorzystujemy tylko wczesne zbiory, co gwarantuje intensywny smak i najwyższą zawartość antyoksydantów.</p>",
-            "link": "/",
-            "link_text": "Poznaj naszą historię",
-            "button_color_scheme": "button"
-          }
-        }
-      },
-      "block_order": [
-        "content_VLDimK"
-      ],
-      "name": "t:sections.image-text.presets.name",
-      "settings": {
-        "primary_image": "shopify://shop_images/oliwkowy_grecki_gaj.jpg",
-        "delay_loader": false,
-        "aspect_ratio": "portrait",
-        "primary_image_style": "image-border-radius--none",
-        "image_icon": false,
-        "color_scheme": "background-1",
-        "show_border_bottom": true,
-        "section_layout": "text_first",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0,
-        "margin_bottom": 120,
-        "mobile_margin_bottom": 60,
-        "enable_animation": true
-      }
-    },
     "rich_text_bfM4A9": {
       "type": "rich-text",
       "blocks": {
@@ -302,6 +263,45 @@
         "mobile_padding_bottom": 72,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
+    "images_and_text_XH7EHN": {
+      "type": "images-and-text",
+      "blocks": {
+        "content_VLDimK": {
+          "type": "content",
+          "settings": {
+            "heading": "Z gajów Peloponezu do Twojej kuchni",
+            "heading_icon": true,
+            "title_style": "uppercase",
+            "heading_size": "h3",
+            "paragraph": "<p>Nasza oliwa pochodzi z rodzinnych gajów oliwnych, gdzie tradycja uprawy przekazywana jest z pokolenia na pokolenie. Wykorzystujemy tylko wczesne zbiory, co gwarantuje intensywny smak i najwyższą zawartość antyoksydantów.</p>",
+            "link": "/",
+            "link_text": "Poznaj naszą historię",
+            "button_color_scheme": "button"
+          }
+        }
+      },
+      "block_order": [
+        "content_VLDimK"
+      ],
+      "name": "t:sections.image-text.presets.name",
+      "settings": {
+        "primary_image": "shopify://shop_images/oliwkowy_grecki_gaj.jpg",
+        "delay_loader": false,
+        "aspect_ratio": "portrait",
+        "primary_image_style": "image-border-radius--none",
+        "image_icon": false,
+        "color_scheme": "background-1",
+        "show_border_bottom": true,
+        "section_layout": "text_first",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 72,
+        "mobile_margin_bottom": 60,
         "enable_animation": true
       }
     },
