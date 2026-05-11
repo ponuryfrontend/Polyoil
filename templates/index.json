@@ -41,6 +41,44 @@
         "enable_animation": true
       }
     },
+    "featured_collection_qhDtKj": {
+      "type": "featured-collection",
+      "blocks": {
+        "image_mKhRHb": {
+          "type": "image",
+          "settings": {
+            "image_style": "image-border-radius--curved-top",
+            "show_decorative_icon": false,
+            "section_layout": "image_first",
+            "side_text": "Optional side text"
+          }
+        }
+      },
+      "block_order": [
+        "image_mKhRHb"
+      ],
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "collection": "oleje-spozywcze-oliwa-z-oliwek",
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "heading": "Title and a collection",
+        "title_style": "normal",
+        "heading_size": "h3",
+        "heading_icon": false,
+        "subheading": "Secondary heading",
+        "link": "/",
+        "link_text": "View collection",
+        "button_color_scheme": "link link-with-icon",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 24,
+        "mobile_margin_bottom": 60,
+        "enable_animation": true
+      }
+    },
     "marquee": {
       "type": "marquee",
       "blocks": {
@@ -152,79 +190,6 @@
         "margin_bottom": 0,
         "mobile_margin_bottom": 0,
         "enable_animation": false
-      }
-    },
-    "featured_product_KWPM7p": {
-      "type": "featured-product",
-      "blocks": {
-        "text_N4tTVY": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_8DDCGF": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h3",
-            "title_style": "normal"
-          }
-        },
-        "price_JVmCx4": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_jjr3gt": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "buy_buttons_Echacy": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_quantity_selector": true
-          }
-        },
-        "share_pYUgzc": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_N4tTVY",
-        "title_8DDCGF",
-        "price_JVmCx4",
-        "variant_picker_jjr3gt",
-        "buy_buttons_Echacy",
-        "share_pYUgzc"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "wysoko-polifenolowa-grecka-oliwa-z-oliwek-extra-virgin-polyoil",
-        "show_icons": true,
-        "color_scheme": "",
-        "show_border_bottom": false,
-        "button_color_scheme": "button",
-        "image_ratio": "portrait",
-        "image_style": "image-border-radius--curved-top",
-        "enable_fullwidth": true,
-        "media_position": "left",
-        "show_video_gradient_overlay": true,
-        "video_control_color": "#ffffff",
-        "product_content_align": "product__info-container",
-        "padding_top": 96,
-        "padding_bottom": 96,
-        "mobile_padding_top": 60,
-        "mobile_padding_bottom": 60,
-        "margin_bottom": 120,
-        "mobile_margin_bottom": 60,
-        "enable_animation": true
       }
     },
     "multicolumn_VmamUE": {
@@ -363,8 +328,8 @@
   },
   "order": [
     "image_banner",
+    "featured_collection_qhDtKj",
     "marquee",
-    "featured_product_KWPM7p",
     "multicolumn_VmamUE",
     "rich_text_bfM4A9",
     "images_and_text_XH7EHN"

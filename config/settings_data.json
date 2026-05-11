@@ -27,7 +27,7 @@
     "variant_swatch_size": 20,
     "inputs_radius": 0,
     "colors_sale": "#ff6060",
-    "image_ratio": "square",
+    "image_ratio": "portrait",
     "show_secondary_image": true,
     "product_card_color_scheme": "background-1",
     "background_transparent": true,
