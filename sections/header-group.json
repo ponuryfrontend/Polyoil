@@ -42,10 +42,10 @@
         "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe"
       ],
       "settings": {
-        "color_scheme": "background-4",
+        "color_scheme": "background-1",
         "show_border_bottom": false,
         "carousel_autoplay": true,
-        "carousel_autoplay_speed": 8,
+        "carousel_autoplay_speed": 6,
         "text_align": "center"
       }
     },
