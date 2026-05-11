@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_bLkrpH": {
+          "type": "announcement",
+          "settings": {
+            "text": "Bezpieczne płatności BLIK, Klarna, Apple Pay",
+            "link": ""
+          }
+        },
         "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe": {
           "type": "announcement",
           "settings": {
@@ -23,6 +30,7 @@
         }
       },
       "block_order": [
+        "announcement_bLkrpH",
         "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe"
       ],
       "settings": {
