@@ -31,7 +31,7 @@
         "desktop_columns": 3,
         "desktop_columns_gap": 24,
         "desktop_rows_gap": 24,
-        "mobile_columns": "1",
+        "mobile_columns": "2",
         "mobile_columns_gap": 16,
         "mobile_rows_gap": 16,
         "enable_filtering": true,
