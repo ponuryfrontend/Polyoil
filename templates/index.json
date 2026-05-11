@@ -294,7 +294,7 @@
         "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
         "show_border_bottom": false,
         "full_width": true,
-        "content_width_range": 100,
+        "content_width_range": 60,
         "content_position": "middle",
         "padding_top": 80,
         "padding_bottom": 80,
