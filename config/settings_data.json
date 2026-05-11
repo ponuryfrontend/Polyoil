@@ -31,6 +31,7 @@
     "show_secondary_image": true,
     "product_card_color_scheme": "background-1",
     "background_transparent": true,
+    "product_card_text_alignment": "left",
     "product_card_padding": 0,
     "product_card_show_vendor": true,
     "product_card_title_style": "normal",
