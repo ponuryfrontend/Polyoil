@@ -56,7 +56,7 @@
         "drawer_menu_decorative_icon": false,
         "enable_currency_selector": true,
         "enable_lang_selector": true,
-        "locale_display_type": "text",
+        "locale_display_type": "flag",
         "margin_bottom": 0,
         "padding_top": 4,
         "padding_bottom": 4
