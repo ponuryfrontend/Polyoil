@@ -344,6 +344,7 @@
       "block_order": [
         "judge_me_reviews_testimonials_carousel_MWUcjU"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -353,8 +354,8 @@
     "image_banner",
     "marquee",
     "featured_product_KWPM7p",
-    "images_and_text_XH7EHN",
     "rich_text_bfM4A9",
+    "images_and_text_XH7EHN",
     "1778493027aeabe9de"
   ]
 }
