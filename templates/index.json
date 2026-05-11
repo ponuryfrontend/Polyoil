@@ -939,6 +939,49 @@
         "mobile_margin_bottom": 0,
         "enable_animation": true
       }
+    },
+    "1778493027aeabe9de": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_MWUcjU": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [
+              "wysoko-polifenolowa-grecka-oliwa-z-oliwek-extra-virgin-polyoil"
+            ],
+            "star_rating": "all",
+            "max_reviews": 20,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "medium",
+            "text_size": "small",
+            "stars_size": "medium",
+            "arrows_position": "bottom",
+            "max_width": 1400,
+            "corner_styling": "square",
+            "quote_marks_style": "sans_serif",
+            "card_color": "#F9F9F9",
+            "stars_and_quote_marks_color": "#3485c5",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "transition_speed": 5,
+            "header_text": "Zobacz opinie naszych Klientów",
+            "show_average_rating": false
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_MWUcjU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -951,6 +994,7 @@
     "call_out_rkxrek",
     "image_and_image_UeBrft",
     "countdown_HXjjUW",
-    "rich_text_bfM4A9"
+    "rich_text_bfM4A9",
+    "1778493027aeabe9de"
   ]
 }
