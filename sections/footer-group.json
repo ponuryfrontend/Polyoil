@@ -11,49 +11,6 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Newsletter sign up heading",
-            "title_style": "normal",
-            "heading_size": "h3"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>Sign up today and get special product releases and exclusive sales!</p>"
-          }
-        },
-        "form": {
-          "type": "email_form",
-          "settings": {
-            "form_style": "normal"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "form"
-      ],
-      "settings": {
-        "color_scheme": "background-3",
-        "show_border_bottom": false,
-        "button_color_scheme": "button",
-        "full_width": true,
-        "padding_top": 56,
-        "padding_bottom": 68,
-        "mobile_padding_top": 44,
-        "mobile_padding_bottom": 44,
-        "margin_bottom": 0,
-        "mobile_margin_bottom": 0,
-        "enable_animation": true
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -120,7 +77,6 @@
     }
   },
   "order": [
-    "newsletter",
     "footer"
   ]
 }
