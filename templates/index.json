@@ -68,11 +68,11 @@
         "heading_icon": false,
         "subheading": "Secondary heading",
         "link": "/",
-        "link_text": "View collection",
+        "link_text": "",
         "button_color_scheme": "link link-with-icon",
         "padding_top": 100,
         "padding_bottom": 0,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 60,
         "mobile_padding_bottom": 0,
         "margin_bottom": 100,
         "mobile_margin_bottom": 60,
@@ -328,10 +328,10 @@
   },
   "order": [
     "image_banner",
-    "featured_collection_qhDtKj",
     "marquee",
-    "multicolumn_VmamUE",
+    "featured_collection_qhDtKj",
     "rich_text_bfM4A9",
+    "multicolumn_VmamUE",
     "images_and_text_XH7EHN"
   ]
 }
