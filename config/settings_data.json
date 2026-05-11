@@ -50,7 +50,7 @@
     "social_facebook_link": "",
     "social_instagram_link": "https://www.instagram.com/polyoil.pl/",
     "social_tiktok_link": "",
-    "rounded_tags": true,
+    "rounded_tags": false,
     "sale_badge_color_scheme": "background-1",
     "sold_out_badge_color_scheme": "background-1",
     "sold_out_badge_clear": true,
