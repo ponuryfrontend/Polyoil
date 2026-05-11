@@ -263,7 +263,7 @@
         "heading": "Wsparcie zdrowia i samopoczucia",
         "heading_size": "h2",
         "title_style": "normal",
-        "decorative-icon": false,
+        "decorative-icon": true,
         "link": "",
         "link_text": "",
         "button_color_scheme": "button",
