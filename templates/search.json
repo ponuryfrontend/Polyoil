@@ -20,9 +20,63 @@
         "enable_filtering": true,
         "enable_sorting": true
       }
+    },
+    "rich_text_qacdtm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KG3WPx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zapisz się do naszego newslettera!",
+            "title_style": "normal",
+            "heading_size": "h2",
+            "heading_alignment": "rich-text--central-alignment",
+            "decorative_icon": false,
+            "icon_position": "rich-text__heading-icon--left"
+          }
+        },
+        "paragraph_cGmUje": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Bądź na bieżąco i odbierz 10% rabatu na pierwsze zakupy!</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KG3WPx",
+        "paragraph_cGmUje"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "full_width": false,
+        "content_width_range": 70,
+        "content_position": "middle",
+        "padding_top": 84,
+        "padding_bottom": 0,
+        "mobile_padding_top": 28,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
+    "custom_liquid_xhrajB": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>\n<div class=\"klaviyo-form-XPbxZB\"></div>\n<div class=\"klaviyo-form-QXKMjN\"></div>",
+        "margin_bottom": 40,
+        "mobile_margin_bottom": 28,
+        "enable_animation": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_qacdtm",
+    "custom_liquid_xhrajB"
   ]
 }
