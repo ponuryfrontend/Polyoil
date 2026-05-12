@@ -330,12 +330,6 @@
     "1778602481becae45b": {
       "type": "apps",
       "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_HYNacH": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "SCBFds"
-          }
-        },
         "klaviyo_email_marketing_sms_form_embed_block_jgjhLg": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
@@ -350,7 +344,6 @@
         }
       },
       "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_HYNacH",
         "klaviyo_email_marketing_sms_form_embed_block_jgjhLg",
         "klaviyo_email_marketing_sms_form_embed_block_knjzCq"
       ],
@@ -358,12 +351,54 @@
         "include_margins": true
       }
     },
+    "rich_text_q6AdpR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hwatLH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text title",
+            "title_style": "normal",
+            "heading_size": "h2",
+            "heading_alignment": "rich-text--central-alignment",
+            "decorative_icon": false,
+            "icon_position": "rich-text__heading-icon--left"
+          }
+        },
+        "paragraph_QzxCwW": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Give customers details about your store content on the template.</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hwatLH",
+        "paragraph_QzxCwW"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "full_width": true,
+        "content_width_range": 100,
+        "content_position": "middle",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
     "custom_liquid_DTGK8x": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>",
-        "margin_bottom": 0,
+        "margin_bottom": 40,
         "mobile_margin_bottom": 0,
         "enable_animation": true
       }
@@ -377,6 +412,7 @@
     "multicolumn_VmamUE",
     "images_and_text_XH7EHN",
     "1778602481becae45b",
+    "rich_text_q6AdpR",
     "custom_liquid_DTGK8x"
   ]
 }
