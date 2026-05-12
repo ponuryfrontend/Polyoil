@@ -357,18 +357,18 @@
         "heading_hwatLH": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text title",
+            "heading": "Zapisz się do naszego newslettera!",
             "title_style": "normal",
             "heading_size": "h2",
             "heading_alignment": "rich-text--central-alignment",
             "decorative_icon": false,
-            "icon_position": "rich-text__heading-icon--left"
+            "icon_position": "rich-text__heading-icon--right"
           }
         },
         "paragraph_QzxCwW": {
           "type": "paragraph",
           "settings": {
-            "rich_text": "<p>Give customers details about your store content on the template.</p>",
+            "rich_text": "<p>Bądź na bieżąco i odbierz 10% rabatu na pierwsze zakupy!</p>",
             "text_alignment": "rich-text--central-alignment"
           }
         }
