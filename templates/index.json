@@ -22,6 +22,7 @@
         "border_radius": "image-border-radius--none",
         "image": "shopify://shop_images/oliwa-z-oliwek-prosto-z-grecji-banner-1.jpg",
         "delay_loader": false,
+        "image_mobile": "shopify://shop_images/oliwa-z-oliwek-prosto-z-grecji-banner-2.jpg",
         "heading": "Add Image heading",
         "title_style": "normal",
         "header_size": "d3",
