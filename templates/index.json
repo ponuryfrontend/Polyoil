@@ -322,7 +322,7 @@
         "padding_bottom": 0,
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40,
-        "margin_bottom": 72,
+        "margin_bottom": 0,
         "mobile_margin_bottom": 60,
         "enable_animation": true
       }
@@ -357,6 +357,16 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_DTGK8x": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
     }
   },
   "order": [
@@ -366,6 +376,7 @@
     "rich_text_bfM4A9",
     "multicolumn_VmamUE",
     "images_and_text_XH7EHN",
-    "1778602481becae45b"
+    "1778602481becae45b",
+    "custom_liquid_DTGK8x"
   ]
 }
