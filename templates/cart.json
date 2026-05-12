@@ -77,7 +77,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>",
+        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>\n<div class=\"klaviyo-form-XPbxZB\"></div>\n<div class=\"klaviyo-form-QXKMjN\"></div>",
         "margin_bottom": 40,
         "mobile_margin_bottom": 28,
         "enable_animation": true
