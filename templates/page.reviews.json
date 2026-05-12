@@ -1,0 +1,124 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "form_name": {
+          "type": "form_name",
+          "settings": {
+            "label": "Imię",
+            "width": "half",
+            "required": true
+          }
+        },
+        "form_email": {
+          "type": "form_email",
+          "settings": {
+            "label": "Email",
+            "width": "half"
+          }
+        },
+        "form_message": {
+          "type": "form_message",
+          "settings": {
+            "label": "Treść wiadomości",
+            "width": "full",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "form_name",
+        "form_email",
+        "form_message"
+      ],
+      "settings": {
+        "color_scheme": "background-4",
+        "show_border_bottom": true,
+        "button_color_scheme": "button",
+        "enable_fullwidth": false,
+        "title": "Formularz kontaktowy",
+        "title_style": "normal",
+        "subheading": "<p>Wyślij nam swoje zapytanie, chętnie pomożemy.</p>",
+        "padding_top": 120,
+        "padding_bottom": 120,
+        "mobile_padding_top": 64,
+        "mobile_padding_bottom": 52,
+        "margin_bottom": 40,
+        "mobile_margin_bottom": 28
+      }
+    },
+    "rich_text_6HFUEF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jfn7TX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zapisz się do naszego newslettera!",
+            "title_style": "normal",
+            "heading_size": "h2",
+            "heading_alignment": "rich-text--central-alignment",
+            "decorative_icon": false,
+            "icon_position": "rich-text__heading-icon--left"
+          }
+        },
+        "paragraph_9a6PJQ": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Bądź na bieżąco i odbierz 10% rabatu na pierwsze zakupy!</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jfn7TX",
+        "paragraph_9a6PJQ"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "full_width": true,
+        "content_width_range": 100,
+        "content_position": "middle",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
+    "custom_liquid_4WDj6c": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>",
+        "margin_bottom": 40,
+        "mobile_margin_bottom": 28,
+        "enable_animation": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "rich_text_6HFUEF",
+    "custom_liquid_4WDj6c"
+  ]
+}
