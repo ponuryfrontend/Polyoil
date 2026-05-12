@@ -20,7 +20,7 @@
         "form_name": {
           "type": "form_name",
           "settings": {
-            "label": "Name",
+            "label": "Imię",
             "width": "half",
             "required": true
           }
@@ -35,7 +35,7 @@
         "form_message": {
           "type": "form_message",
           "settings": {
-            "label": "Message",
+            "label": "Treść wiadomości",
             "width": "full",
             "required": true
           }
@@ -53,7 +53,7 @@
         "enable_fullwidth": false,
         "title": "Formularz kontaktowy",
         "title_style": "normal",
-        "subheading": "<p>Send us your query, we are happy to help</p>",
+        "subheading": "<p>Wyślij nam swoje zapytanie, chętnie pomożemy.</p>",
         "padding_top": 120,
         "padding_bottom": 160,
         "mobile_padding_top": 64,
