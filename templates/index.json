@@ -160,6 +160,7 @@
         "image_mKhRHb": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IMG_0340.jpg",
             "image_style": "image-border-radius--curved-top",
             "show_decorative_icon": false,
             "section_layout": "image_first",
@@ -183,12 +184,12 @@
         "link": "/",
         "link_text": "",
         "button_color_scheme": "link link-with-icon",
-        "padding_top": 60,
+        "padding_top": 76,
         "padding_bottom": 0,
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 0,
         "margin_bottom": 100,
-        "mobile_margin_bottom": 60,
+        "mobile_margin_bottom": 36,
         "enable_animation": true
       }
     },
