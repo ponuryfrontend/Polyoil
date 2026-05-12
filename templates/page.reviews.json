@@ -11,55 +11,21 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {}
     },
-    "form": {
-      "type": "contact-form",
+    "1778608219fdcd9626": {
+      "type": "apps",
       "blocks": {
-        "form_name": {
-          "type": "form_name",
-          "settings": {
-            "label": "Imię",
-            "width": "half",
-            "required": true
-          }
-        },
-        "form_email": {
-          "type": "form_email",
-          "settings": {
-            "label": "Email",
-            "width": "half"
-          }
-        },
-        "form_message": {
-          "type": "form_message",
-          "settings": {
-            "label": "Treść wiadomości",
-            "width": "full",
-            "required": true
-          }
+        "klaviyo_reviews_all_reviews_hn3fEh": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/all-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
         }
       },
       "block_order": [
-        "form_name",
-        "form_email",
-        "form_message"
+        "klaviyo_reviews_all_reviews_hn3fEh"
       ],
       "settings": {
-        "color_scheme": "background-4",
-        "show_border_bottom": true,
-        "button_color_scheme": "button",
-        "enable_fullwidth": false,
-        "title": "Formularz kontaktowy",
-        "title_style": "normal",
-        "subheading": "<p>Wyślij nam swoje zapytanie, chętnie pomożemy.</p>",
-        "padding_top": 120,
-        "padding_bottom": 120,
-        "mobile_padding_top": 64,
-        "mobile_padding_bottom": 52,
-        "margin_bottom": 40,
-        "mobile_margin_bottom": 28
+        "include_margins": true
       }
     },
     "rich_text_6HFUEF": {
@@ -117,7 +83,7 @@
   },
   "order": [
     "main",
-    "form",
+    "1778608219fdcd9626",
     "rich_text_6HFUEF",
     "custom_liquid_4WDj6c"
   ]
