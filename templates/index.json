@@ -399,7 +399,7 @@
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>",
         "margin_bottom": 40,
-        "mobile_margin_bottom": 0,
+        "mobile_margin_bottom": 28,
         "enable_animation": true
       }
     }
