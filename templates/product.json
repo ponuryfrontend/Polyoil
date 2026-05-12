@@ -125,7 +125,7 @@
         "image_ratio": "adapt",
         "media_size": "large",
         "image_column_layout": "double",
-        "image_style": "image-border-radius--rounded-xxs",
+        "image_style": "image-border-radius--none",
         "video_autoplay": true,
         "video_format": "cover",
         "show_thumbnails": false,
