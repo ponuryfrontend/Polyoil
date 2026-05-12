@@ -137,7 +137,7 @@
         "scroll_down_arrow": true,
         "product_content_align": "product__info-container--left",
         "padding_top": 0,
-        "padding_bottom": 96,
+        "padding_bottom": 0,
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 64,
         "margin_bottom": 0,
