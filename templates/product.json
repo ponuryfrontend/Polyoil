@@ -219,7 +219,7 @@
       "type": "product-recommendations",
       "settings": {
         "show_border_bottom": false,
-        "heading": "You may also like",
+        "heading": "Produkty, które mogą Ci się spodobać",
         "title_style": "uppercase",
         "subheading": "",
         "padding_top": 0,
