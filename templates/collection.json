@@ -34,8 +34,8 @@
         "mobile_columns": "2",
         "mobile_columns_gap": 16,
         "mobile_rows_gap": 16,
-        "enable_filtering": true,
-        "enable_sorting": true,
+        "enable_filtering": false,
+        "enable_sorting": false,
         "collection_navigation_type": "drawer",
         "padding_top": 16,
         "padding_bottom": 32,
@@ -89,7 +89,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>",
+        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>\n<div class=\"klaviyo-form-XPbxZB\"></div>\n<div class=\"klaviyo-form-QXKMjN\"></div>",
         "margin_bottom": 40,
         "mobile_margin_bottom": 28,
         "enable_animation": true
