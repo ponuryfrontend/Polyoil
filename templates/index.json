@@ -314,7 +314,7 @@
         "primary_image": "shopify://shop_images/oliwkowy-grecki-gaj-przy-morzu.jpg",
         "delay_loader": false,
         "aspect_ratio": "portrait",
-        "primary_image_style": "image-border-radius--curved-top",
+        "primary_image_style": "image-border-radius--none",
         "image_icon": false,
         "color_scheme": "background-1",
         "show_border_bottom": false,
