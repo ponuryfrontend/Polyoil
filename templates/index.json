@@ -316,7 +316,7 @@
         "primary_image_style": "image-border-radius--curved-top",
         "image_icon": false,
         "color_scheme": "background-1",
-        "show_border_bottom": true,
+        "show_border_bottom": false,
         "section_layout": "text_first",
         "padding_top": 72,
         "padding_bottom": 0,
