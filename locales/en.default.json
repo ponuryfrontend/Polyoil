@@ -552,5 +552,43 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "local_pickup": {
+        "location_information_far_away_one_item": {
+          "few": "There are %{count} locations with your position",
+          "many": "There are %{count} locations with your position"
+        },
+        "location_information_far_away_other_items": {
+          "few": "There are %{count} locations with your items",
+          "many": "There are %{count} locations with your items"
+        },
+        "location_nearby_one_item": {
+          "few": "There are %{count} locations near you",
+          "many": "There are %{count} locations near you"
+        },
+        "location_nearby_other_items": {
+          "few": "There are %{count} locations near you with your items",
+          "many": "There are %{count} locations near you with your items"
+        },
+        "location_nearby_short_one_item": {
+          "few": "%{count} nearby locations based on your position",
+          "many": "%{count} nearby locations based on your position"
+        },
+        "location_nearby_short_other_items": {
+          "few": "%{count} nearby locations with your items",
+          "many": "%{count} nearby locations with your items"
+        },
+        "location_far_away_one_item": {
+          "few": "%{count} locations with your position",
+          "many": "%{count} locations with your position"
+        },
+        "location_far_away_other_items": {
+          "few": "%{count} locations with your items",
+          "many": "%{count} locations with your items"
+        }
+      }
+    }
   }
 }
