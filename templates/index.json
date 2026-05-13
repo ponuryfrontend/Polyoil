@@ -296,7 +296,7 @@
           "settings": {
             "heading": "Z gajów Peloponezu do Twojej kuchni",
             "heading_icon": false,
-            "title_style": "uppercase",
+            "title_style": "normal",
             "heading_size": "h3",
             "paragraph": "<p>Nasza oliwa pochodzi z rodzinnych gajów oliwnych, gdzie tradycja uprawy przekazywana jest z pokolenia na pokolenie. Wykorzystujemy tylko wczesne zbiory, co gwarantuje intensywny smak i najwyższą zawartość antyoksydantów.</p>",
             "link": "/",
