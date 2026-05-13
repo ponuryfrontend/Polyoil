@@ -38,9 +38,9 @@
         "enable_sorting": false,
         "collection_navigation_type": "drawer",
         "padding_top": 16,
-        "padding_bottom": 32,
+        "padding_bottom": 80,
         "mobile_padding_top": 16,
-        "mobile_padding_bottom": 24
+        "mobile_padding_bottom": 52
       }
     },
     "rich_text_DnmpxL": {
