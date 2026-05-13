@@ -162,6 +162,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/oliwki-zamoczone-w-oliwie-z-oliwek.jpg",
+            "image_mobile": "shopify://shop_images/oliwki-zamoczone-w-oliwie-z-oliwek-mobile.jpg",
             "image_style": "image-border-radius--curved-top",
             "show_decorative_icon": false,
             "section_layout": "image_first",
