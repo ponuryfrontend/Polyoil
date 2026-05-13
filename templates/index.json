@@ -187,10 +187,10 @@
         "link_text": "",
         "button_color_scheme": "link link-with-icon",
         "padding_top": 108,
-        "padding_bottom": 0,
+        "padding_bottom": 108,
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 0,
-        "margin_bottom": 100,
+        "margin_bottom": 0,
         "mobile_margin_bottom": 36,
         "enable_animation": true
       }
