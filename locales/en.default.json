@@ -242,7 +242,9 @@
       "view_article": "View article",
       "results_with_count": {
         "one": "{{ count }} result found for “{{ terms }}”",
-        "other": "{{ count }} results found for “{{ terms }}”"
+        "other": "{{ count }} results found for “{{ terms }}”",
+        "few": "{{ count }} result(s) found for \"{{ terms }}\"",
+        "many": "{{ count }} result(s) found for \"{{ terms }}\""
       },
       "title": "Search results",
       "products": "Product Suggestions",
@@ -338,7 +340,9 @@
       "max_price": "The highest price is {{ price }}",
       "product_count": {
         "one": "Showing {{ product_count }} of {{ count }} product",
-        "other": "Showing {{ product_count }} of {{ count }} products"
+        "other": "Showing {{ product_count }} of {{ count }} products",
+        "few": "Displaying {{ product_count }} of {{ count }} products",
+        "many": "Displaying {{ product_count }} of {{ count }} products"
       },
       "reset": "Reset",
       "sort_button": "Sort",
@@ -587,6 +591,248 @@
         "location_far_away_other_items": {
           "few": "%{count} locations with your items",
           "many": "%{count} locations with your items"
+        },
+        "location_information": {
+          "few": "Number of locations with nearby stock: %{count}",
+          "many": "Number of locations with nearby stock: %{count}"
+        },
+        "all_stores_far_away": {
+          "title_with_item": {
+            "few": "The nearest product-offering location is more than %{distance} away from %{location}",
+            "many": "The nearest product-offering location is more than %{distance} away from %{location}"
+          }
+        },
+        "location_nearby": {
+          "few": "The item is available at %{count} nearby locations",
+          "many": "The item is available at %{count} nearby locations"
+        },
+        "location_nearby_short": {
+          "few": "Item available at %{count} nearby locations",
+          "many": "Item available at %{count} nearby locations"
+        }
+      },
+      "stock": {
+        "unshippable_product": {
+          "message": {
+            "few": "These items will be removed from your cart because there are no delivery methods available for your address.",
+            "many": "These items will be removed from your cart because there are no delivery methods available for your address."
+          }
+        },
+        "unfulfillable_product": {
+          "message": {
+            "few": "Method: %{delivery_method} is no longer available for these items.",
+            "many": "Method: %{delivery_method} is no longer available for these items."
+          },
+          "default_message": {
+            "few": "The selected delivery method is no longer available for these items.",
+            "many": "The selected delivery method is no longer available for these items."
+          }
+        }
+      },
+      "order_summary": {
+        "pickup_unavailable_banner_title_with_country": {
+          "few": "No stores with your items are available in %{country}",
+          "many": "No stores with your items are available in %{country}"
+        }
+      },
+      "shipping": {
+        "subscription_delivery_description": {
+          "first_n_order_free_with_cycle": {
+            "few": "Free shipping for %{count} consecutive deliveries, then %{recurring_order_shipping_price}",
+            "many": "Free shipping for %{count} consecutive deliveries, then %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "few": "Free shipping for %{count} deliveries, then %{recurring_order_shipping_price}",
+            "many": "Free shipping for %{count} deliveries, then %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "few": "For %{count} consecutive deliveries, the price for each is %{shipping_price}",
+            "many": "For %{count} consecutive deliveries, the price for each is %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "few": "For %{count} consecutive deliveries, the price for each is %{shipping_price}",
+            "many": "For %{count} consecutive deliveries, the price for each is %{shipping_price}"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "few": "Free shipping for the first %{cycle}, then %{recurring_order_shipping_price}",
+            "many": "Free shipping for the first %{cycle}, then %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "few": "%{shipping_price} for %{count} subsequent deliveries (%{per_delivery_cost})",
+            "many": "%{shipping_price} for %{count} subsequent deliveries (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "few": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost})",
+            "many": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "few": "%{shipping_price} for %{count} consecutive deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}",
+            "many": "%{shipping_price} for %{count} consecutive deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "few": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}",
+            "many": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost}), then %{recurring_order_shipping_price}"
+          }
+        }
+      },
+      "payment": {
+        "card_fields_unavailable_html": {
+          "few": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or use another payment method.",
+          "many": "Credit and debit card payments are currently unavailable.<br><a href=\"%{current_url}\">Refresh this page</a> or use another payment method."
+        },
+        "expired_cards_info": {
+          "few": "You have %{count} outdated cards that you can review and edit in your account.",
+          "many": "You have %{count} outdated cards that you can review and edit in your account."
+        },
+        "discount_codes_modified_summary": {
+          "few": "Number of modified discount codes: %{count}",
+          "many": "Number of modified discount codes: %{count}"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "few": "Number of deleted or modified discount codes: %{count}",
+          "many": "Number of deleted or modified discount codes: %{count}"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "few": "Some of the items in your cart cannot be shipped to the address provided. Please check the address and try again, or choose a different address.",
+          "many": "Some of the items in your cart cannot be shipped to the address provided. Please check the address and try again, or choose a different address."
+        },
+        "shipping_method_not_available_updated": {
+          "few": "The item(s) you added cannot be shipped to your location. Please remove it/them to complete your purchase or contact the store.",
+          "many": "The item(s) you added cannot be shipped to your location. Please remove it/them to complete your purchase or contact the store."
+        }
+      },
+      "processing": {
+        "wait": {
+          "medium": {
+            "few": "Your order is being processed. Estimated waiting time: %{count} minute(s).",
+            "many": "Your order is being processed. Estimated waiting time: %{count} minute(s)."
+          }
+        }
+      },
+      "thank_you": {
+        "gift_card_confirmation_by_text_typ": {
+          "few": "You will receive an SMS with gift cards in a few minutes.",
+          "many": "You will receive an SMS with gift cards in a few minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "few": "You will receive an email with your gift cards in a few minutes.",
+          "many": "You will receive an email with your gift cards in a few minutes."
+        },
+        "gift_card_resend_failure": {
+          "few": "There was a problem resending your gift cards. Please try again or contact us.",
+          "many": "There was a problem resending your gift cards. Please try again or contact us."
+        },
+        "items_fulfilled_by_store": {
+          "few": "The purchased items will come from other stores.",
+          "many": "The purchased items will come from other stores."
+        }
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "few": "Buy %{product_name} and %{count} other item/items",
+          "many": "Buy %{product_name} and %{count} other item/items"
+        }
+      },
+      "subscriptions": {
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "few": ", then %{count} payments of %{total_price}",
+            "many": ", then %{count} payments of %{total_price}"
+          }
+        }
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "few": "These products will be removed from your cart because they are not available in your country/region.",
+          "many": "These products will be removed from your cart because they are not available in your country/region."
+        },
+        "all_products_in_cart_unavailable": {
+          "few": "These products are not available in your country/region.",
+          "many": "These products are not available in your country/region."
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "few": "These items will be removed from your cart because there are no delivery methods available for your address.",
+            "many": "These items will be removed from your cart because there are no delivery methods available for your address."
+          }
+        }
+      },
+      "pickup_point": {
+        "paginator": {
+          "header": {
+            "few": "Displaying %{first} - %{last} of %{count} items",
+            "many": "Displaying %{first} - %{last} of %{count} items"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "few": "%{count} pickup points near your location",
+          "many": "%{count} pickup points near your location"
+        },
+        "pickup_unavailable_banner_title": {
+          "few": "No pickup points available for these products",
+          "many": "No pickup points available for these products"
+        }
+      },
+      "review_address_modal": {
+        "subtitle": {
+          "few": "This order will be shipped to the address provided by {{merchant}}. Please select a shipping address.",
+          "many": "This order will be shipped to the address provided by {{merchant}}. Please select a shipping address."
+        }
+      }
+    },
+    "page_titles": {
+      "search_results": {
+        "few": "Search: Found %{count} results for \"%{terms}\"",
+        "many": "Search: Found %{count} results for \"%{terms}\""
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "confirmed_gift_card_additional_description": {
+          "few": "Each gift card will be sent in a separate email.",
+          "many": "Each gift card will be sent in a separate email."
+        },
+        "delivered_description_gift_card_text": {
+          "few": "Gift cards have been sent via text message.",
+          "many": "Gift cards have been sent via text message."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "few": "Each gift card will be sent in a separate text message.",
+          "many": "Each gift card will be sent in a separate text message."
+        },
+        "gift_resend_failure": {
+          "few": "There was a problem resending your gift cards. Please try again or contact us.",
+          "many": "There was a problem resending your gift cards. Please try again or contact us."
+        }
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "few": "Your payment is {{count}} days overdue",
+              "many": "Your payment is {{count}} days overdue"
+            },
+            "banner_overdue_for_single_fulfillment": {
+              "few": "Payment of {{amount}} is {{count}} days overdue. {{link}}",
+              "many": "Payment of {{amount}} is {{count}} days overdue. {{link}}"
+            }
+          }
+        }
+      }
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "updating_contracts": {
+          "few": "Updating {{count}} subscription agreements...",
+          "many": "Updating {{count}} subscription agreements..."
         }
       }
     }
