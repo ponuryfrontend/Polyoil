@@ -319,12 +319,12 @@
         "color_scheme": "background-1",
         "show_border_bottom": false,
         "section_layout": "text_first",
-        "padding_top": 72,
-        "padding_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 100,
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40,
         "margin_bottom": 0,
-        "mobile_margin_bottom": 60,
+        "mobile_margin_bottom": 0,
         "enable_animation": true
       }
     },
