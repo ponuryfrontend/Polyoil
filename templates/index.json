@@ -310,10 +310,10 @@
       ],
       "name": "t:sections.image-text.presets.name",
       "settings": {
-        "primary_image": "shopify://shop_images/oliwkowy_grecki_gaj.jpg",
+        "primary_image": "shopify://shop_images/oliwkowy-grecki-gaj-przy-morzu.jpg",
         "delay_loader": false,
         "aspect_ratio": "portrait",
-        "primary_image_style": "image-border-radius--none",
+        "primary_image_style": "image-border-radius--curved-top",
         "image_icon": false,
         "color_scheme": "background-1",
         "show_border_bottom": true,
