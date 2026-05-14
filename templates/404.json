@@ -84,7 +84,7 @@
         "full_width": false,
         "content_width_range": 70,
         "content_position": "middle",
-        "padding_top": 84,
+        "padding_top": 0,
         "padding_bottom": 0,
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 0,
