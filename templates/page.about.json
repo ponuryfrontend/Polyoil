@@ -373,8 +373,8 @@
         "padding_bottom": 100,
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 72,
-        "margin_bottom": 120,
-        "mobile_margin_bottom": 60,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 12,
         "enable_animation": true
       }
     },
@@ -385,7 +385,7 @@
         "height": "custom-desktop",
         "height_custom": 820,
         "height_mobile": "custom-mobile",
-        "height_mobile_custom": 760,
+        "height_mobile_custom": 680,
         "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
         "full_width": true,
         "show_border_bottom": false,
