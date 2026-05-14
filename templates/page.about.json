@@ -248,6 +248,79 @@
         "mobile_margin_bottom": 60,
         "enable_animation": true
       }
+    },
+    "polyoil_why_LBTxax": {
+      "type": "polyoil-why",
+      "blocks": {
+        "tile_TNhzWH": {
+          "type": "tile",
+          "settings": {
+            "title": ">350 mg/kg polifenoli",
+            "description": "poziom przekraczający próg uznawany przez UE"
+          }
+        },
+        "tile_8BTaHW": {
+          "type": "tile",
+          "settings": {
+            "title": "0,3% kwasowości",
+            "description": "znacznie poniżej normy extra virgin"
+          }
+        },
+        "tile_MebqUc": {
+          "type": "tile",
+          "settings": {
+            "title": "100% Koroneiki",
+            "description": "odmiana ceniona za aromat i bogactwo antyoksydantów"
+          }
+        },
+        "tile_frLrdi": {
+          "type": "tile",
+          "settings": {
+            "title": "Niefiltrowana",
+            "description": "intensywny zielony kolor i świeży, pieprzowy finisz"
+          }
+        }
+      },
+      "block_order": [
+        "tile_TNhzWH",
+        "tile_8BTaHW",
+        "tile_MebqUc",
+        "tile_frLrdi"
+      ],
+      "name": "Polyoil – Dlaczego",
+      "settings": {
+        "left_heading": "Dlaczego Polyoil?",
+        "right_heading": "Co oznacza wysoka zawartość polifenoli?",
+        "right_description": "<p>Większość oliw extra virgin dostępnych w sklepach ma poniżej 100 mg polifenoli na kilogram. Polyoil ma ich ponad 350 mg/kg — czyli poziom, od którego Komisja Europejska (rozporządzenie 432/2012) dopuszcza oświadczenie dotyczące ochrony lipidów krwi przed stresem oksydacyjnym.</p>",
+        "right_footer": "<p>Pieprzowa nuta w gardle, naturalna goryczka i świeży aromat są oznaką obecności cennych przeciwutleniaczy oraz jakości świeżo tłoczonej oliwy.</p>",
+        "bg_color": "#FAFAF5",
+        "heading_color": "#2C2C2A",
+        "accent_color": "#5B5F35",
+        "text_color": "#2C2C2A",
+        "heading_font": "dm_serif_display_n4",
+        "heading_size": 32,
+        "heading_size_mobile": 24,
+        "body_font": "dm_sans_n4",
+        "tile_title_size": 16,
+        "tile_title_size_mobile": 14,
+        "tile_desc_size": 13,
+        "tile_desc_size_mobile": 12,
+        "body_size": 14,
+        "body_size_mobile": 13,
+        "tile_icon_size": 36,
+        "tile_icon_size_mobile": 28,
+        "right_icon_size": 100,
+        "right_icon_size_mobile": 64,
+        "max_width": 1440,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 32,
+        "padding_bottom_mobile": 32,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
     }
   },
   "order": [
@@ -255,6 +328,7 @@
     "polyoil_stats_Lcp3Em",
     "image_banner_iYNB4C",
     "rich_text_UCpkja",
-    "images_and_text_LaFDzy"
+    "images_and_text_LaFDzy",
+    "polyoil_why_LBTxax"
   ]
 }
