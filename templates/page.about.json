@@ -256,28 +256,32 @@
           "type": "tile",
           "settings": {
             "title": ">350 mg/kg polifenoli",
-            "description": "poziom przekraczający próg uznawany przez UE"
+            "description": "poziom przekraczający próg uznawany przez UE",
+            "icon": "shopify://shop_images/polyoil-koroneiki.svg"
           }
         },
         "tile_8BTaHW": {
           "type": "tile",
           "settings": {
             "title": "0,3% kwasowości",
-            "description": "znacznie poniżej normy extra virgin"
+            "description": "znacznie poniżej normy extra virgin",
+            "icon": "shopify://shop_images/polyoil-kwasowosc.svg"
           }
         },
         "tile_MebqUc": {
           "type": "tile",
           "settings": {
             "title": "100% Koroneiki",
-            "description": "odmiana ceniona za aromat i bogactwo antyoksydantów"
+            "description": "odmiana ceniona za aromat i bogactwo antyoksydantów",
+            "icon": "shopify://shop_images/polyoil-polifenole.svg"
           }
         },
         "tile_frLrdi": {
           "type": "tile",
           "settings": {
             "title": "Niefiltrowana",
-            "description": "intensywny zielony kolor i świeży, pieprzowy finisz"
+            "description": "intensywny zielony kolor i świeży, pieprzowy finisz",
+            "icon": "shopify://shop_images/polyoil-niefiltrowana.svg"
           }
         }
       },
