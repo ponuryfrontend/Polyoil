@@ -551,5 +551,43 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "local_pickup": {
+        "location_information_far_away_one_item": {
+          "few": "Es gibt %{count} Standorte mit Ihrer Position",
+          "many": "Es gibt %{count} Standorte mit Ihrer Position."
+        },
+        "location_information_far_away_other_items": {
+          "few": "Es gibt %{count} Standorte mit Ihren Artikeln",
+          "many": "Es gibt %{count} Standorte mit Ihren Positionen"
+        },
+        "location_nearby_one_item": {
+          "few": "In Ihrer Nähe gibt es %{count} Standorte.",
+          "many": "In Ihrer Nähe befinden sich %{count} Standorte."
+        },
+        "location_nearby_other_items": {
+          "few": "Es gibt %{count} Standorte in Ihrer Nähe mit Ihren Artikeln",
+          "many": "Es gibt %{count} Standorte in der Nähe, die Ihre Artikel anbieten"
+        },
+        "location_nearby_short_one_item": {
+          "few": "%{count} Standorte in Ihrer Nähe",
+          "many": "%{count} Standorte in Ihrer Nähe mit Ihrer Position"
+        },
+        "location_nearby_short_other_items": {
+          "few": "%{count} Standorte in der Nähe, an denen Ihre Artikel vorrätig sind",
+          "many": "%{count} Standorte in der Nähe, an denen Sie sich befanden"
+        },
+        "location_far_away_one_item": {
+          "few": "%{count} Standorte in Ihrer Nähe",
+          "many": "%{count} Standorte mit Ihrer Position"
+        },
+        "location_far_away_other_items": {
+          "few": "%{count} Standorte mit Ihren Artikeln",
+          "many": "%{count} Standorte mit Ihren Einträgen"
+        }
+      }
+    }
   }
 }
