@@ -1,0 +1,250 @@
+/* =========================================================
+   Polyoil – Dlaczego (why) section
+   Desktop (>=990): 2-column layout, left wider
+     Left: heading + 4 tiles in single row
+     Right: heading + icon|text + footer text
+   Mobile (<=749):
+     Part 1: left heading + 4 tiles in 2x2 grid
+     Part 2: right heading + icon|text (2 cols) + footer text
+   No borders.
+   ========================================================= */
+
+.polyoil-why {
+  background: var(--polyoil-why-bg, #FAFAF5);
+
+  padding-top: var(--polyoil-why-padding-top, 60px);
+  padding-bottom: var(--polyoil-why-padding-bottom, 60px);
+  padding-left: 28px;
+  padding-right: 28px;
+
+  margin-top: var(--polyoil-why-margin-top, 0px);
+  margin-bottom: var(--polyoil-why-margin-bottom, 0px);
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.polyoil-why__inner {
+  max-width: var(--polyoil-why-max-width, 1440px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.polyoil-why__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+}
+
+/* ---------- Wspólne style nagłówków ---------- */
+.polyoil-why__heading {
+  font-family: var(--polyoil-why-heading-font, inherit);
+  font-weight: var(--polyoil-why-heading-weight, 500);
+  font-style: var(--polyoil-why-heading-style, normal);
+  font-size: var(--polyoil-why-heading-size, 32px);
+  color: var(--polyoil-why-heading, #2C2C2A);
+  line-height: 1.25;
+  margin: 0 0 28px;
+}
+
+/* ---------- Kafelki (lewa strona) ---------- */
+.polyoil-why__tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.polyoil-why__tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  padding: 16px 8px;
+}
+
+.polyoil-why__tile-title {
+  font-family: var(--polyoil-why-body-font, inherit);
+  font-weight: 500;
+  font-size: var(--polyoil-why-tile-title-size, 16px);
+  color: var(--polyoil-why-accent, #5B5F35);
+  line-height: 1.25;
+}
+
+.polyoil-why__tile-desc {
+  font-family: var(--polyoil-why-body-font, inherit);
+  font-weight: var(--polyoil-why-body-weight, 400);
+  font-size: var(--polyoil-why-tile-desc-size, 13px);
+  color: var(--polyoil-why-text, #2C2C2A);
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.polyoil-why__tile-icon-wrap {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.polyoil-why__tile-icon {
+  width: var(--polyoil-why-tile-icon-size, 36px);
+  height: var(--polyoil-why-tile-icon-size, 36px);
+  object-fit: contain;
+  display: block;
+}
+
+/* ---------- Prawa strona ---------- */
+.polyoil-why__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.polyoil-why__icon-text {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+.polyoil-why__icon-wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.polyoil-why__icon {
+  width: var(--polyoil-why-right-icon-size, 100px);
+  height: var(--polyoil-why-right-icon-size, 100px);
+  object-fit: contain;
+  display: block;
+}
+
+.polyoil-why__description,
+.polyoil-why__footer {
+  font-family: var(--polyoil-why-body-font, inherit);
+  font-weight: var(--polyoil-why-body-weight, 400);
+  font-size: var(--polyoil-why-body-size, 14px);
+  color: var(--polyoil-why-text, #2C2C2A);
+  line-height: 1.65;
+}
+
+.polyoil-why__description > *,
+.polyoil-why__footer > * {
+  margin: 0 0 12px;
+}
+
+.polyoil-why__description > *:last-child,
+.polyoil-why__footer > *:last-child {
+  margin-bottom: 0;
+}
+
+/* =========================================================
+   DESKTOP (>=990)
+   Two columns side-by-side, tiles in single row
+   ========================================================= */
+@media (min-width: 990px) {
+  .polyoil-why__grid {
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+    gap: 80px;
+  }
+
+  .polyoil-why__tiles {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  /* Obsługa innych liczb kafelków */
+  .polyoil-why__tiles[data-count="1"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .polyoil-why__tiles[data-count="2"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .polyoil-why__tiles[data-count="3"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* =========================================================
+   MOBILE (<=749)
+   Kafelki 2x2, prawa strona ułożona pionowo pod nimi
+   ========================================================= */
+@media (max-width: 749px) {
+  .polyoil-why {
+    padding-top: var(--polyoil-why-padding-top-mobile, 32px);
+    padding-bottom: var(--polyoil-why-padding-bottom-mobile, 32px);
+    padding-left: 16px;
+    padding-right: 16px;
+
+    margin-top: var(--polyoil-why-margin-top-mobile, 0px);
+    margin-bottom: var(--polyoil-why-margin-bottom-mobile, 0px);
+  }
+
+  .polyoil-why__grid {
+    gap: 40px;
+  }
+
+  .polyoil-why__heading {
+    font-size: var(--polyoil-why-heading-size-mobile, 24px);
+    margin-bottom: 20px;
+  }
+
+  /* Kafelki 2x2 */
+  .polyoil-why__tiles,
+  .polyoil-why__tiles[data-count="1"],
+  .polyoil-why__tiles[data-count="3"],
+  .polyoil-why__tiles[data-count="4"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .polyoil-why__tile {
+    padding: 12px 4px;
+    gap: 10px;
+  }
+
+  .polyoil-why__tile-title {
+    font-size: var(--polyoil-why-tile-title-size-mobile, 14px);
+  }
+
+  .polyoil-why__tile-desc {
+    font-size: var(--polyoil-why-tile-desc-size-mobile, 12px);
+  }
+
+  .polyoil-why__tile-icon {
+    width: var(--polyoil-why-tile-icon-size-mobile, 28px);
+    height: var(--polyoil-why-tile-icon-size-mobile, 28px);
+  }
+
+  /* Prawa strona – ikona obok tekstu nadal w 2 kolumnach */
+  .polyoil-why__icon-text {
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+
+  .polyoil-why__icon {
+    width: var(--polyoil-why-right-icon-size-mobile, 64px);
+    height: var(--polyoil-why-right-icon-size-mobile, 64px);
+  }
+
+  .polyoil-why__description,
+  .polyoil-why__footer {
+    font-size: var(--polyoil-why-body-size-mobile, 13px);
+    line-height: 1.55;
+  }
+}
+
+/* =========================================================
+   Tablet (750–989) – kafelki 4 w rzędzie, ale kolumny nadal pionowo
+   ========================================================= */
+@media (min-width: 750px) and (max-width: 989px) {
+  .polyoil-why__tiles,
+  .polyoil-why__tiles[data-count="3"],
+  .polyoil-why__tiles[data-count="4"] {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+}

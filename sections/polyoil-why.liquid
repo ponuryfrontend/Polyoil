@@ -1,0 +1,525 @@
+{{ 'polyoil-why.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  {{ section.settings.heading_font | font_face: font_display: 'swap' }}
+  {{ section.settings.body_font | font_face: font_display: 'swap' }}
+{% endstyle %}
+
+<section
+  class="polyoil-why"
+  style="
+    --polyoil-why-bg: {{ section.settings.bg_color }};
+    --polyoil-why-heading: {{ section.settings.heading_color }};
+    --polyoil-why-accent: {{ section.settings.accent_color }};
+    --polyoil-why-text: {{ section.settings.text_color }};
+
+    --polyoil-why-heading-font: {{ section.settings.heading_font.family }}, {{ section.settings.heading_font.fallback_families }};
+    --polyoil-why-heading-weight: {{ section.settings.heading_font.weight }};
+    --polyoil-why-heading-style: {{ section.settings.heading_font.style }};
+    --polyoil-why-heading-size: {{ section.settings.heading_size }}px;
+    --polyoil-why-heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
+
+    --polyoil-why-body-font: {{ section.settings.body_font.family }}, {{ section.settings.body_font.fallback_families }};
+    --polyoil-why-body-weight: {{ section.settings.body_font.weight }};
+    --polyoil-why-body-style: {{ section.settings.body_font.style }};
+
+    --polyoil-why-tile-title-size: {{ section.settings.tile_title_size }}px;
+    --polyoil-why-tile-title-size-mobile: {{ section.settings.tile_title_size_mobile }}px;
+
+    --polyoil-why-tile-desc-size: {{ section.settings.tile_desc_size }}px;
+    --polyoil-why-tile-desc-size-mobile: {{ section.settings.tile_desc_size_mobile }}px;
+
+    --polyoil-why-body-size: {{ section.settings.body_size }}px;
+    --polyoil-why-body-size-mobile: {{ section.settings.body_size_mobile }}px;
+
+    --polyoil-why-tile-icon-size: {{ section.settings.tile_icon_size }}px;
+    --polyoil-why-tile-icon-size-mobile: {{ section.settings.tile_icon_size_mobile }}px;
+
+    --polyoil-why-right-icon-size: {{ section.settings.right_icon_size }}px;
+    --polyoil-why-right-icon-size-mobile: {{ section.settings.right_icon_size_mobile }}px;
+
+    --polyoil-why-max-width: {{ section.settings.max_width }}px;
+
+    --polyoil-why-padding-top: {{ section.settings.padding_top }}px;
+    --polyoil-why-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --polyoil-why-padding-top-mobile: {{ section.settings.padding_top_mobile }}px;
+    --polyoil-why-padding-bottom-mobile: {{ section.settings.padding_bottom_mobile }}px;
+
+    --polyoil-why-margin-top: {{ section.settings.margin_top }}px;
+    --polyoil-why-margin-bottom: {{ section.settings.margin_bottom }}px;
+    --polyoil-why-margin-top-mobile: {{ section.settings.margin_top_mobile }}px;
+    --polyoil-why-margin-bottom-mobile: {{ section.settings.margin_bottom_mobile }}px;
+  "
+>
+  <div class="polyoil-why__inner">
+    <div class="polyoil-why__grid">
+
+      {%- comment -%} ===== LEWA STRONA: nagłówek + 4 kafelki ===== {%- endcomment -%}
+      <div class="polyoil-why__left">
+        {%- if section.settings.left_heading != blank -%}
+          <h2 class="polyoil-why__heading">{{ section.settings.left_heading }}</h2>
+        {%- endif -%}
+
+        {%- if section.blocks.size > 0 -%}
+          <div class="polyoil-why__tiles" data-count="{{ section.blocks.size }}">
+            {%- for block in section.blocks -%}
+              <div class="polyoil-why__tile" {{ block.shopify_attributes }}>
+                {%- if block.settings.title != blank -%}
+                  <div class="polyoil-why__tile-title">{{ block.settings.title }}</div>
+                {%- endif -%}
+                {%- if block.settings.description != blank -%}
+                  <div class="polyoil-why__tile-desc">{{ block.settings.description }}</div>
+                {%- endif -%}
+                {%- if block.settings.icon != blank -%}
+                  <div class="polyoil-why__tile-icon-wrap">
+                    <img
+                      src="{{ block.settings.icon | image_url: width: 200 }}"
+                      alt="{{ block.settings.icon.alt | escape }}"
+                      class="polyoil-why__tile-icon"
+                      loading="lazy"
+                      width="64"
+                      height="64"
+                    >
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+      {%- comment -%} ===== PRAWA STRONA: nagłówek + ikona/tekst + tekst pod spodem ===== {%- endcomment -%}
+      <div class="polyoil-why__right">
+        {%- if section.settings.right_heading != blank -%}
+          <h2 class="polyoil-why__heading">{{ section.settings.right_heading }}</h2>
+        {%- endif -%}
+
+        {%- if section.settings.right_icon != blank or section.settings.right_description != blank -%}
+          <div class="polyoil-why__icon-text">
+            {%- if section.settings.right_icon != blank -%}
+              <div class="polyoil-why__icon-wrap">
+                <img
+                  src="{{ section.settings.right_icon | image_url: width: 300 }}"
+                  alt="{{ section.settings.right_icon.alt | escape }}"
+                  class="polyoil-why__icon"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                >
+              </div>
+            {%- endif -%}
+            {%- if section.settings.right_description != blank -%}
+              <div class="polyoil-why__description">{{ section.settings.right_description }}</div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.right_footer != blank -%}
+          <div class="polyoil-why__footer">{{ section.settings.right_footer }}</div>
+        {%- endif -%}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Polyoil – Dlaczego",
+  "tag": "section",
+  "class": "shopify-section--polyoil-why",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Lewa strona"
+    },
+    {
+      "type": "text",
+      "id": "left_heading",
+      "label": "Nagłówek",
+      "default": "Dlaczego Polyoil?"
+    },
+
+    {
+      "type": "header",
+      "content": "Prawa strona"
+    },
+    {
+      "type": "text",
+      "id": "right_heading",
+      "label": "Nagłówek",
+      "default": "Co oznacza wysoka zawartość polifenoli?"
+    },
+    {
+      "type": "image_picker",
+      "id": "right_icon",
+      "label": "Ikona (duża)"
+    },
+    {
+      "type": "richtext",
+      "id": "right_description",
+      "label": "Opis (obok ikony)",
+      "default": "<p>Większość oliw extra virgin dostępnych w sklepach ma poniżej 100 mg polifenoli na kilogram. Polyoil ma ich ponad 350 mg/kg — czyli poziom, od którego Komisja Europejska (rozporządzenie 432/2012) dopuszcza oświadczenie dotyczące ochrony lipidów krwi przed stresem oksydacyjnym.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "right_footer",
+      "label": "Tekst pod spodem",
+      "default": "<p>Pieprzowa nuta w gardle, naturalna goryczka i świeży aromat są oznaką obecności cennych przeciwutleniaczy oraz jakości świeżo tłoczonej oliwy.</p>"
+    },
+
+    {
+      "type": "header",
+      "content": "Kolory"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Tło sekcji",
+      "default": "#FAFAF5"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Kolor nagłówków",
+      "default": "#2C2C2A"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Kolor tytułów kafelków (akcent)",
+      "default": "#5B5F35"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Kolor tekstu",
+      "default": "#2C2C2A"
+    },
+
+    {
+      "type": "header",
+      "content": "Typografia – nagłówki"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Czcionka",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Rozmiar (desktop)",
+      "unit": "px",
+      "min": 20,
+      "max": 56,
+      "step": 1,
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Rozmiar (mobile)",
+      "unit": "px",
+      "min": 16,
+      "max": 40,
+      "step": 1,
+      "default": 24
+    },
+
+    {
+      "type": "header",
+      "content": "Typografia – treść"
+    },
+    {
+      "type": "font_picker",
+      "id": "body_font",
+      "label": "Czcionka",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "range",
+      "id": "tile_title_size",
+      "label": "Tytuł kafelka (desktop)",
+      "unit": "px",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "tile_title_size_mobile",
+      "label": "Tytuł kafelka (mobile)",
+      "unit": "px",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "tile_desc_size",
+      "label": "Opis kafelka (desktop)",
+      "unit": "px",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "tile_desc_size_mobile",
+      "label": "Opis kafelka (mobile)",
+      "unit": "px",
+      "min": 9,
+      "max": 16,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "body_size",
+      "label": "Treść prawej strony (desktop)",
+      "unit": "px",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "body_size_mobile",
+      "label": "Treść prawej strony (mobile)",
+      "unit": "px",
+      "min": 11,
+      "max": 18,
+      "step": 1,
+      "default": 13
+    },
+
+    {
+      "type": "header",
+      "content": "Rozmiar ikon"
+    },
+    {
+      "type": "range",
+      "id": "tile_icon_size",
+      "label": "Ikona kafelka (desktop)",
+      "unit": "px",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "tile_icon_size_mobile",
+      "label": "Ikona kafelka (mobile)",
+      "unit": "px",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "right_icon_size",
+      "label": "Ikona prawej strony (desktop)",
+      "unit": "px",
+      "min": 40,
+      "max": 200,
+      "step": 4,
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "right_icon_size_mobile",
+      "label": "Ikona prawej strony (mobile)",
+      "unit": "px",
+      "min": 30,
+      "max": 120,
+      "step": 2,
+      "default": 64
+    },
+
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Maksymalna szerokość sekcji",
+      "unit": "px",
+      "min": 960,
+      "max": 1600,
+      "step": 20,
+      "default": 1440
+    },
+
+    {
+      "type": "header",
+      "content": "Padding – desktop"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding górny",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "step": 4,
+      "default": 60
+    },
+
+    {
+      "type": "header",
+      "content": "Padding – mobile"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Padding górny",
+      "unit": "px",
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Padding dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "default": 32
+    },
+
+    {
+      "type": "header",
+      "content": "Margin – desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "Margines górny",
+      "unit": "px",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "Margines dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "Margin – mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_mobile",
+      "label": "Margines górny",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_mobile",
+      "label": "Margines dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tile",
+      "name": "Kafelek",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tytuł",
+          "default": ">350 mg/kg polifenoli"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Opis",
+          "default": "poziom przekraczający próg uznawany przez UE"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Ikona"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "presets": [
+    {
+      "name": "Polyoil – Dlaczego",
+      "category": "Polyoil",
+      "blocks": [
+        {
+          "type": "tile",
+          "settings": {
+            "title": ">350 mg/kg polifenoli",
+            "description": "poziom przekraczający próg uznawany przez UE"
+          }
+        },
+        {
+          "type": "tile",
+          "settings": {
+            "title": "0,3% kwasowości",
+            "description": "znacznie poniżej normy extra virgin"
+          }
+        },
+        {
+          "type": "tile",
+          "settings": {
+            "title": "100% Koroneiki",
+            "description": "odmiana ceniona za aromat i bogactwo antyoksydantów"
+          }
+        },
+        {
+          "type": "tile",
+          "settings": {
+            "title": "Niefiltrowana",
+            "description": "intensywny zielony kolor i świeży, pieprzowy finisz"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
