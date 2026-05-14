@@ -21,39 +21,39 @@
     --polyoil-stats-eyebrow-font: {{ section.settings.eyebrow_font.family }}, {{ section.settings.eyebrow_font.fallback_families }};
     --polyoil-stats-eyebrow-weight: {{ section.settings.eyebrow_font.weight }};
     --polyoil-stats-eyebrow-style: {{ section.settings.eyebrow_font.style }};
-    --polyoil-stats-eyebrow-size: {{ section.settings.eyebrow_size }}px;
-    --polyoil-stats-eyebrow-size-mobile: {{ section.settings.eyebrow_size_mobile }}px;
+    --polyoil-stats-eyebrow-size: {{ section.settings.eyebrow_size | times: 0.1 }}rem;
+    --polyoil-stats-eyebrow-size-mobile: {{ section.settings.eyebrow_size_mobile | times: 0.1 }}rem;
 
     --polyoil-stats-heading-font: {{ section.settings.heading_font.family }}, {{ section.settings.heading_font.fallback_families }};
     --polyoil-stats-heading-weight: {{ section.settings.heading_font.weight }};
     --polyoil-stats-heading-style: {{ section.settings.heading_font.style }};
-    --polyoil-stats-heading-size: {{ section.settings.heading_size }}px;
-    --polyoil-stats-heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
+    --polyoil-stats-heading-size: {{ section.settings.heading_size | times: 0.1 }}rem;
+    --polyoil-stats-heading-size-mobile: {{ section.settings.heading_size_mobile | times: 0.1 }}rem;
 
     --polyoil-stats-value-font: {{ section.settings.value_font.family }}, {{ section.settings.value_font.fallback_families }};
     --polyoil-stats-value-weight: {{ section.settings.value_font.weight }};
     --polyoil-stats-value-style: {{ section.settings.value_font.style }};
-    --polyoil-stats-value-size: {{ section.settings.value_size }}px;
-    --polyoil-stats-value-size-mobile: {{ section.settings.value_size_mobile }}px;
+    --polyoil-stats-value-size: {{ section.settings.value_size | times: 0.1 }}rem;
+    --polyoil-stats-value-size-mobile: {{ section.settings.value_size_mobile | times: 0.1 }}rem;
 
     --polyoil-stats-label-font: {{ section.settings.label_font.family }}, {{ section.settings.label_font.fallback_families }};
     --polyoil-stats-label-weight: {{ section.settings.label_font.weight }};
     --polyoil-stats-label-style: {{ section.settings.label_font.style }};
-    --polyoil-stats-label-size: {{ section.settings.label_size }}px;
-    --polyoil-stats-label-size-mobile: {{ section.settings.label_size_mobile }}px;
+    --polyoil-stats-label-size: {{ section.settings.label_size | times: 0.1 }}rem;
+    --polyoil-stats-label-size-mobile: {{ section.settings.label_size_mobile | times: 0.1 }}rem;
 
-    --polyoil-stats-padding-top: {{ section.settings.padding_top }}px;
-    --polyoil-stats-padding-bottom: {{ section.settings.padding_bottom }}px;
-    --polyoil-stats-padding-top-mobile: {{ section.settings.padding_top_mobile }}px;
-    --polyoil-stats-padding-bottom-mobile: {{ section.settings.padding_bottom_mobile }}px;
+    --polyoil-stats-padding-top: {{ section.settings.padding_top | times: 0.1 }}rem;
+    --polyoil-stats-padding-bottom: {{ section.settings.padding_bottom | times: 0.1 }}rem;
+    --polyoil-stats-padding-top-mobile: {{ section.settings.padding_top_mobile | times: 0.1 }}rem;
+    --polyoil-stats-padding-bottom-mobile: {{ section.settings.padding_bottom_mobile | times: 0.1 }}rem;
 
-    --polyoil-stats-margin-top: {{ section.settings.margin_top }}px;
-    --polyoil-stats-margin-bottom: {{ section.settings.margin_bottom }}px;
-    --polyoil-stats-margin-top-mobile: {{ section.settings.margin_top_mobile }}px;
-    --polyoil-stats-margin-bottom-mobile: {{ section.settings.margin_bottom_mobile }}px;
+    --polyoil-stats-margin-top: {{ section.settings.margin_top | times: 0.1 }}rem;
+    --polyoil-stats-margin-bottom: {{ section.settings.margin_bottom | times: 0.1 }}rem;
+    --polyoil-stats-margin-top-mobile: {{ section.settings.margin_top_mobile | times: 0.1 }}rem;
+    --polyoil-stats-margin-bottom-mobile: {{ section.settings.margin_bottom_mobile | times: 0.1 }}rem;
 
-    --polyoil-stats-gap: {{ section.settings.card_gap }}px;
-    --polyoil-stats-gap-mobile: {{ section.settings.card_gap_mobile }}px;
+    --polyoil-stats-gap: {{ section.settings.card_gap | times: 0.1 }}rem;
+    --polyoil-stats-gap-mobile: {{ section.settings.card_gap_mobile | times: 0.1 }}rem;
   "
 >
   <div class="polyoil-stats__inner">
@@ -89,7 +89,7 @@
 {
   "name": "Polyoil – Statystyki",
   "tag": "section",
-  "class": "shopify-section--polyoil-stats",
+  "class": "shopify-section--polyoil-stats spaced-section",
   "settings": [
     {
       "type": "header",
@@ -163,7 +163,7 @@
       "type": "font_picker",
       "id": "eyebrow_font",
       "label": "Czcionka",
-      "default": "inherit"
+      "default": "assistant_n4"
     },
     {
       "type": "range",
@@ -194,7 +194,7 @@
       "type": "font_picker",
       "id": "heading_font",
       "label": "Czcionka",
-      "default": "georgia_n4"
+      "default": "assistant_n4"
     },
     {
       "type": "range",
@@ -225,7 +225,7 @@
       "type": "font_picker",
       "id": "value_font",
       "label": "Czcionka",
-      "default": "georgia_n4"
+      "default": "assistant_n4"
     },
     {
       "type": "range",
@@ -256,7 +256,7 @@
       "type": "font_picker",
       "id": "label_font",
       "label": "Czcionka",
-      "default": "inherit"
+      "default": "assistant_n4"
     },
     {
       "type": "range",
