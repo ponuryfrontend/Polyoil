@@ -392,6 +392,7 @@
         "border_radius": "image-border-radius--none",
         "image": "shopify://shop_images/okragly-talerz-jedzenia-z-oliwa-desktop.jpg",
         "delay_loader": false,
+        "image_mobile": "shopify://shop_images/okragly-talerz-jedzenia-z-oliwa-mobile.jpg",
         "heading": "Smacznego i na zdrowie.",
         "title_style": "normal",
         "header_size": "h1",
