@@ -166,14 +166,14 @@
         "paragraph_FjRmtz": {
           "type": "paragraph",
           "settings": {
-            "rich_text": "<p>Od ponad 15 lat zawodowo zajmuję się zdrową żywnością. Przez ten czas przeszły mi przez ręce setki produktów z różnych krańców świata.</p>",
+            "rich_text": "<p>Od ponad 15 lat zawodowo zajmujemy się zdrową żywnością. Przez ten czas przeszły mi przez ręce setki produktów z różnych krańców świata.</p>",
             "text_alignment": "rich-text--central-alignment"
           }
         },
         "paragraph_enJ96x": {
           "type": "paragraph",
           "settings": {
-            "rich_text": "<p>Wysokopolifenolowa oliwa z oliwek była jednym z odkryć, które zmieniły nasz sposób gotowania i jednym z najtrudniejszych produktów do znalezienia w jakości, której naprawdę szukaliśmy.</p><p>Szukaliśmy oliwy świeżej, naturalnej, bogatej w polifenole, ale jednocześnie takiej, którą z przyjemnością można dodawać do codziennych posiłków.</p>",
+            "rich_text": "<p>Wysokopolifenolowa oliwa z oliwek była jednym z odkryć, które zmieniły nasz sposób gotowania i jednym z najtrudniejszych produktów do znalezienia w jakości, której naprawdę szukaliśmy. Szukaliśmy oliwy świeżej, naturalnej, bogatej w polifenole, ale jednocześnie takiej, którą z przyjemnością można dodawać do codziennych posiłków.</p>",
             "text_alignment": "rich-text--central-alignment"
           }
         }
