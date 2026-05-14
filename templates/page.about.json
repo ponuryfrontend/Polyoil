@@ -377,6 +377,38 @@
         "mobile_margin_bottom": 60,
         "enable_animation": true
       }
+    },
+    "image_banner_Y7ydGt": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "height": "custom-desktop",
+        "height_custom": 820,
+        "height_mobile": "custom-mobile",
+        "height_mobile_custom": 760,
+        "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
+        "full_width": true,
+        "show_border_bottom": false,
+        "border_radius": "image-border-radius--none",
+        "delay_loader": false,
+        "heading": "Smacznego i na zdrowie.",
+        "title_style": "normal",
+        "header_size": "h1",
+        "header_size_mobile": "h2-mobile",
+        "subheading": "<p>Przebadaliśmy dziesiątki próbek, by wybrać tę jedną oliwę, którą naprawdę warto mieć w swojej kuchni. Poznaj Polyoil i przekonaj się, jak smakuje grecka oliwa extra virgin z wysoką zawartością polifenoli.</p>",
+        "subheading_size": "p",
+        "text_alignment": "center",
+        "content_position": "bottom-center",
+        "show_gradient": false,
+        "link": "shopify://collections/oleje-spozywcze-oliwa-z-oliwek",
+        "link_text": "KUP TERAZ",
+        "button_color_scheme": "button button--secondary",
+        "side_text": "Spróbuj koniecznie naszej oliwy",
+        "side_text_position": "left",
+        "margin_bottom": 72,
+        "mobile_margin_bottom": 44,
+        "enable_animation": true
+      }
     }
   },
   "order": [
@@ -386,6 +418,7 @@
     "rich_text_UCpkja",
     "images_and_text_LaFDzy",
     "polyoil_why_LBTxax",
-    "rich_text_xjMJfV"
+    "rich_text_xjMJfV",
+    "image_banner_Y7ydGt"
   ]
 }
