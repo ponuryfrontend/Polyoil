@@ -15,9 +15,9 @@
         "color_scheme": "background-3",
         "show_border_bottom": false,
         "show_breadcrumbs": true,
-        "title": "Blog Landing Page",
+        "title": "Blog",
         "title_style": "normal",
-        "text": "Blog landing page text"
+        "text": ""
       }
     },
     "main": {
