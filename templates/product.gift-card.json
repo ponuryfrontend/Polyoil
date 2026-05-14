@@ -101,7 +101,7 @@
         "show_border_bottom": false,
         "product_gallery_zoom": true,
         "image_ratio": "adapt",
-        "media_size": "medium",
+        "media_size": "small",
         "image_column_layout": "single",
         "image_style": "image-border-radius--none",
         "video_autoplay": true,
