@@ -28,9 +28,6 @@
 }
 
 .polyoil-stats__eyebrow {
-  font-family: var(--polyoil-stats-eyebrow-font, Helvetica, Arial, sans-serif);
-  font-weight: var(--polyoil-stats-eyebrow-weight, 400);
-  font-style: var(--polyoil-stats-eyebrow-style, normal);
   font-size: var(--polyoil-stats-eyebrow-size, 11px);
   color: var(--polyoil-stats-eyebrow, #639922);
   letter-spacing: 2px;
