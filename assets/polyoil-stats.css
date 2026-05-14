@@ -10,7 +10,6 @@
   padding-left: 28px;
   padding-right: 28px;
   margin-top: var(--polyoil-stats-margin-top, 0px);
-  margin-bottom: var(--polyoil-stats-margin-bottom, 0px);
   width: 100%;
   box-sizing: border-box;
 }
