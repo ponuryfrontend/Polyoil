@@ -1,0 +1,324 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "header_size": "h2",
+            "title_style": "uppercase"
+          }
+        },
+        "klaviyo_reviews_average_rating_gK3YrW": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_show_tax_message": false,
+            "price_show_shipping_info": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": false,
+            "button_color_scheme": "button",
+            "buy_button_color_scheme": "button"
+          }
+        },
+        "usp_JTCnmF": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "title_style": "normal",
+            "heading_01": "Add a benefit heading",
+            "content_01": "Add your benefit content",
+            "heading_02": "Add a benefit heading",
+            "content_02": "Add your benefit content",
+            "heading_03": "",
+            "content_03": ""
+          }
+        },
+        "collapsible_content_NghLWy": {
+          "type": "collapsible_content",
+          "settings": {
+            "display_type": "accordion",
+            "faq_open": true,
+            "faqs_question": "Opis produktu",
+            "title_style": "uppercase",
+            "faqs_answer": "{{ product.description }}"
+          }
+        },
+        "collapsible_content_KAjL8B": {
+          "type": "collapsible_content",
+          "settings": {
+            "display_type": "accordion",
+            "faq_open": false,
+            "faqs_question": "Wysyłka",
+            "title_style": "uppercase",
+            "faqs_answer": ""
+          }
+        },
+        "collapsible_content_wGb9pj": {
+          "type": "collapsible_content",
+          "settings": {
+            "display_type": "accordion",
+            "faq_open": false,
+            "faqs_question": "Zwroty",
+            "title_style": "uppercase",
+            "faqs_answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "klaviyo_reviews_average_rating_gK3YrW",
+        "price",
+        "variant_picker",
+        "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6",
+        "buy_buttons",
+        "usp_JTCnmF",
+        "collapsible_content_NghLWy",
+        "collapsible_content_KAjL8B",
+        "collapsible_content_wGb9pj"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "show_breadcrumbs": true,
+        "show_border_bottom": true,
+        "product_gallery_zoom": true,
+        "image_ratio": "adapt",
+        "media_size": "large",
+        "image_column_layout": "double",
+        "image_style": "image-border-radius--none",
+        "video_autoplay": true,
+        "video_format": "cover",
+        "show_thumbnails": false,
+        "product_thumbnails_corners": true,
+        "show_video_gradient_overlay": true,
+        "video_control_color": "#ffffff",
+        "enable_media_group": false,
+        "media_group_name": "Color",
+        "scroll_down_arrow": true,
+        "product_content_align": "product__info-container--left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 64,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
+    "description": {
+      "type": "main-product-description",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "tab_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sustainability",
+            "title_style": "normal",
+            "content": "<p>Use this section to tell customers about your stores unique selling points</p>",
+            "page": ""
+          }
+        },
+        "tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Core Features",
+            "title_style": "normal",
+            "content": "<p>Use this section to tell customers about your stores unique selling points</p>",
+            "page": ""
+          }
+        },
+        "tab_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery & Returns",
+            "title_style": "normal",
+            "content": "<p>Use this section to tell customers about your stores unique selling points</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab_1",
+        "tab_2",
+        "tab_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-3",
+        "show_border_bottom": false,
+        "product_description_heading": "Add a heading",
+        "title_style": "uppercase",
+        "decorative_icon": false,
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "mobile_padding_top": 64,
+        "mobile_padding_bottom": 64,
+        "margin_bottom": 120,
+        "mobile_margin_bottom": 60
+      }
+    },
+    "custom_liquid_UQXJBC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: inherit; color: #175280;\">\n<h2 style=\"font-size: 22px; margin-bottom: 10px; color: #175280;\">Wyniki niezależnego badania laboratoryjnego</h2>\n<p style=\"font-size: 14px; color: #175280; margin-bottom: 20px;\">W lutym 2025 r. <strong>Politechnika Ł&oacute;dzka</strong> (Instytut Technologii i Analizy Żywności) przebadała Polyoil. Pełne wyniki publikujemy jawnie &mdash; bez selektywnego cytowania.</p>\n<table style=\"width: 100%; border-collapse: collapse; font-size: 13px; background: #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden;\">\n<thead>\n<tr style=\"background-color: #3485c5; color: #ffffff;\">\n<th style=\"padding: 10px 14px; text-align: left; font-weight: 600; font-size: 13px; color: #ffffff;\">Parametr</th>\n<th style=\"padding: 10px 14px; text-align: left; font-weight: 600; font-size: 13px; color: #ffffff;\">Polyoil</th>\n<th style=\"padding: 10px 14px; text-align: left; font-weight: 600; font-size: 13px; color: #ffffff;\">Norma / referencja</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"background-color: #f7f9fc;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Polifenole og&oacute;łem</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">353,92 mg/kg</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">EU 432/2012: &ge; 250 mg/kg dla claimu zdrowotnego</td>\n</tr>\n<tr style=\"background-color: #ffffff;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Kwas oleinowy (omega-9)</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">76,39 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">IOC dla extra virgin: 55&ndash;83 g/100 g</td>\n</tr>\n<tr style=\"background-color: #f7f9fc;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Kwasowość</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">0,3 %</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Norma extra virgin EU: &le; 0,8 %</td>\n</tr>\n<tr style=\"background-color: #ffffff;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Kwasy nienasycone (suma)</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">84,50 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">im wyższe, tym lepiej</td>\n</tr>\n<tr style=\"background-color: #f7f9fc;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Kwasy jednonienasącone</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">77,19 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">profil charakterystyczny dla oliwy</td>\n</tr>\n<tr style=\"background-color: #ffffff;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Kwasy wielonienasącone</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">7,31 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">&mdash;</td>\n</tr>\n<tr style=\"background-color: #f7f9fc;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Kwasy nasycone (suma)</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">15,50 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">im niższe, tym lepiej</td>\n</tr>\n<tr style=\"background-color: #ffffff;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Omega-3 (ALA)</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">0,77 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">&mdash;</td>\n</tr>\n<tr style=\"background-color: #f7f9fc;\">\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">Omega-6 (LA)</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280; font-weight: bold;\">6,53 g/100 g</td>\n<td style=\"padding: 9px 14px; border-bottom: 1px solid #e8edf2; color: #175280;\">&mdash;</td>\n</tr>\n<tr style=\"background-color: #ffffff;\">\n<td style=\"padding: 9px 14px; color: #175280;\">Omega-9</td>\n<td style=\"padding: 9px 14px; color: #175280; font-weight: bold;\">76,71 g/100 g</td>\n<td style=\"padding: 9px 14px; color: #175280;\">dominujący kwas w oliwie extra virgin</td>\n</tr>\n</tbody>\n</table>\n<p style=\"font-size: 12px; color: #175280; margin-top: 14px;\">Sprawozdanie sporządziła dr hab. inż. Joanna Oracz, zatwierdziła prof. dr hab. inż. Grażyna Budryn (Dyrektor Instytutu). Data: 7.02.2025.</p>\n<p style=\"font-size: 13px; margin-top: 8px;\"><strong><a href=\"https://cdn.shopify.com/s/files/1/0961/4835/7453/files/sprawozdanie_instytutu_technologi_i_analizy_zywnosci_do_oliwy_z_oliwek_polyoil.jpg?v=1778744098\" style=\"color: #175280; text-decoration: none;\" title=\"Sprawozdanie\">Zobacz pełne sprawozdanie z Politechniki Ł&oacute;dzkiej (PDF) &rarr;</a></strong></p>\n<p style=\"font-size: 13px; margin-top: 8px;\"></p>\n</div>",
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
+    "17785746752fa4faef": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_LdeHye": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_LdeHye"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_border_bottom": false,
+        "heading": "Produkty, które mogą Ci się spodobać",
+        "title_style": "uppercase",
+        "subheading": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 80,
+        "mobile_margin_bottom": 40
+      }
+    },
+    "recently_viewed_i9brBw": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "name": "t:sections.recently-viewed.name",
+      "settings": {
+        "show_border_bottom": false,
+        "heading": "Recently viewed",
+        "max_items": 10,
+        "title_style": "uppercase",
+        "subheading": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 120,
+        "mobile_margin_bottom": 60
+      }
+    },
+    "rich_text_cwJmft": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LzjTL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zapisz się do naszego newslettera!",
+            "title_style": "normal",
+            "heading_size": "h2",
+            "heading_alignment": "rich-text--central-alignment",
+            "decorative_icon": false,
+            "icon_position": "rich-text__heading-icon--left"
+          }
+        },
+        "paragraph_pxjYmH": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Bądź na bieżąco i odbierz 10% rabatu na pierwsze zakupy!</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LzjTL6",
+        "paragraph_pxjYmH"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "full_width": true,
+        "content_width_range": 100,
+        "content_position": "middle",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
+    },
+    "custom_liquid_rFhCgL": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-SCBFds\"></div>\n<div class=\"klaviyo-form-XPbxZB\"></div>\n<div class=\"klaviyo-form-QXKMjN\"></div>",
+        "margin_bottom": 40,
+        "mobile_margin_bottom": 28,
+        "enable_animation": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "description",
+    "custom_liquid_UQXJBC",
+    "17785746752fa4faef",
+    "product-recommendations",
+    "recently_viewed_i9brBw",
+    "rich_text_cwJmft",
+    "custom_liquid_rFhCgL"
+  ]
+}
