@@ -125,11 +125,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
       "10436698916776057164": {
         "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
         "disabled": false,
@@ -143,6 +138,11 @@
       "16735461377607925125": {
         "type": "shopify://apps/terms-checkbox/blocks/app-embed/17661ca5-aeea-41b9-8091-d8f7233e8b22",
         "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
         "settings": {}
       }
     },
