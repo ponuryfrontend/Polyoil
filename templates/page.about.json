@@ -206,12 +206,63 @@
         "mobile_margin_bottom": 0,
         "enable_animation": true
       }
+    },
+    "images_and_text_LaFDzy": {
+      "type": "images-and-text",
+      "blocks": {
+        "image_jgjbhq": {
+          "type": "image",
+          "settings": {
+            "secondary_image": "shopify://shop_images/IMG_0047.jpg",
+            "delay_loader": false,
+            "aspect_ratio": "portrait",
+            "secondary_image_style": "image-border-radius--curved-top",
+            "side_text": "Provide more details here"
+          }
+        },
+        "content_DADdah": {
+          "type": "content",
+          "settings": {
+            "heading": "Sześć pokoleń. Jedna odmiana.",
+            "heading_icon": false,
+            "title_style": "normal",
+            "heading_size": "h3",
+            "paragraph": "<p>Rodzina z Kalamaty prowadzi oliwiarnię od 1846 roku. Uprawiają Koroneiki w wysokich gajach, zbierają ręcznie, tłoczą na zimno w 24 h.</p>",
+            "link": "/",
+            "link_text": "Explore now",
+            "button_color_scheme": "button"
+          }
+        }
+      },
+      "block_order": [
+        "image_jgjbhq",
+        "content_DADdah"
+      ],
+      "name": "t:sections.image-text.presets.name",
+      "settings": {
+        "primary_image": "shopify://shop_images/grecka-oliwa-z-oliwek-tliczona-na-zimno-3-l.jpg",
+        "delay_loader": false,
+        "aspect_ratio": "portrait",
+        "primary_image_style": "image-border-radius--none",
+        "image_icon": false,
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "section_layout": "text_first",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 120,
+        "mobile_margin_bottom": 60,
+        "enable_animation": true
+      }
     }
   },
   "order": [
     "image_banner_GpYzQU",
     "polyoil_stats_Lcp3Em",
     "image_banner_iYNB4C",
-    "rich_text_UCpkja"
+    "rich_text_UCpkja",
+    "images_and_text_LaFDzy"
   ]
 }
