@@ -89,10 +89,10 @@
         "heading_color": "#175280",
         "label_color": "#3485c5",
         "border_color": "#3485c5",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_mobile": 24,
-        "padding_bottom_mobile": 24
+        "padding_top": 84,
+        "padding_bottom": 84,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
       }
     }
   },
