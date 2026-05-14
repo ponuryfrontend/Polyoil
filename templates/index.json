@@ -300,7 +300,7 @@
             "title_style": "normal",
             "heading_size": "h3",
             "paragraph": "<p>Nasza oliwa pochodzi z rodzinnych gajów oliwnych, gdzie tradycja uprawy przekazywana jest z pokolenia na pokolenie. Wykorzystujemy tylko wczesne zbiory, co gwarantuje intensywny smak i najwyższą zawartość antyoksydantów.</p>",
-            "link": "/",
+            "link": "shopify://pages/o-nas",
             "link_text": "Poznaj naszą historię",
             "button_color_scheme": "button"
           }
