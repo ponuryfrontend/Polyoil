@@ -1,0 +1,156 @@
+/* =========================================================
+   Polyoil – Stats section
+   Responsive: 4 cols (desktop) → 2x2 (mobile)
+   ========================================================= */
+
+.polyoil-stats {
+  background: var(--polyoil-stats-bg, #FAFAF5);
+  padding-top: var(--polyoil-stats-padding-top, 40px);
+  padding-bottom: var(--polyoil-stats-padding-bottom, 40px);
+  padding-left: 28px;
+  padding-right: 28px;
+  border-top: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
+  border-bottom: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.polyoil-stats__inner {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.polyoil-stats__eyebrow {
+  font-size: 11px;
+  color: var(--polyoil-stats-eyebrow, #639922);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 12px;
+  font-weight: 500;
+}
+
+.polyoil-stats__heading {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--polyoil-stats-heading, #2C2C2A);
+  text-align: center;
+  margin: 0 0 28px;
+  line-height: 1.25;
+}
+
+.polyoil-stats__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.polyoil-stats__card {
+  text-align: center;
+  padding: 18px 12px;
+  background: var(--polyoil-stats-card-bg, #FFFFFF);
+  border: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
+  border-radius: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.polyoil-stats__card:hover {
+  transform: translateY(-2px);
+  border-color: var(--polyoil-stats-accent, #3B6D11);
+}
+
+.polyoil-stats__value {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--polyoil-stats-accent, #3B6D11);
+  line-height: 1.1;
+  word-break: break-word;
+}
+
+.polyoil-stats__label {
+  font-size: 11px;
+  color: var(--polyoil-stats-label, #5F5E5A);
+  margin-top: 6px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* Auto-fit for blocks count other than 4 (e.g. 2, 3, 5, 6) */
+.polyoil-stats__grid[data-count="2"] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.polyoil-stats__grid[data-count="3"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.polyoil-stats__grid[data-count="5"],
+.polyoil-stats__grid[data-count="6"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 989px) {
+  .polyoil-stats {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .polyoil-stats__grid,
+  .polyoil-stats__grid[data-count="5"],
+  .polyoil-stats__grid[data-count="6"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .polyoil-stats__value {
+    font-size: 24px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 749px) {
+  .polyoil-stats {
+    padding-top: var(--polyoil-stats-padding-top-mobile, 24px);
+    padding-bottom: var(--polyoil-stats-padding-bottom-mobile, 24px);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .polyoil-stats__grid,
+  .polyoil-stats__grid[data-count="3"],
+  .polyoil-stats__grid[data-count="5"],
+  .polyoil-stats__grid[data-count="6"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .polyoil-stats__heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .polyoil-stats__eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+  }
+  .polyoil-stats__card {
+    padding: 14px 8px;
+  }
+  .polyoil-stats__value {
+    font-size: 20px;
+  }
+  .polyoil-stats__label {
+    font-size: 10px;
+    margin-top: 4px;
+  }
+}
+
+/* ---------- Bardzo wąskie ekrany (<360px) ---------- */
+@media (max-width: 359px) {
+  .polyoil-stats__value {
+    font-size: 18px;
+  }
+  .polyoil-stats__label {
+    font-size: 9px;
+    letter-spacing: 0.3px;
+  }
+}

@@ -1,0 +1,224 @@
+{{ 'polyoil-stats.css' | asset_url | stylesheet_tag }}
+
+<section
+  class="polyoil-stats"
+  style="
+    --polyoil-stats-bg: {{ section.settings.bg_color }};
+    --polyoil-stats-card-bg: {{ section.settings.card_bg }};
+    --polyoil-stats-accent: {{ section.settings.accent_color }};
+    --polyoil-stats-eyebrow: {{ section.settings.eyebrow_color }};
+    --polyoil-stats-label: {{ section.settings.label_color }};
+    --polyoil-stats-heading: {{ section.settings.heading_color }};
+    --polyoil-stats-border: {{ section.settings.border_color }};
+    --polyoil-stats-padding-top: {{ section.settings.padding_top }}px;
+    --polyoil-stats-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --polyoil-stats-padding-top-mobile: {{ section.settings.padding_top_mobile }}px;
+    --polyoil-stats-padding-bottom-mobile: {{ section.settings.padding_bottom_mobile }}px;
+  "
+>
+  <div class="polyoil-stats__inner">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="polyoil-stats__eyebrow">{{ section.settings.eyebrow }}</p>
+    {%- endif -%}
+
+    {%- if section.settings.heading != blank -%}
+      <h2 class="polyoil-stats__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div
+        class="polyoil-stats__grid"
+        data-count="{{ section.blocks.size }}"
+      >
+        {%- for block in section.blocks -%}
+          <div class="polyoil-stats__card" {{ block.shopify_attributes }}>
+            {%- if block.settings.value != blank -%}
+              <div class="polyoil-stats__value">{{ block.settings.value }}</div>
+            {%- endif -%}
+            {%- if block.settings.label != blank -%}
+              <div class="polyoil-stats__label">{{ block.settings.label }}</div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Polyoil – Statystyki",
+  "tag": "section",
+  "class": "shopify-section--polyoil-stats",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Treść"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Tekst nadrzędny (eyebrow)",
+      "default": "Peloponez · od 1846"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Nagłówek (opcjonalny)",
+      "info": "Zostaw puste, jeśli chcesz pokazać tylko liczby."
+    },
+    {
+      "type": "header",
+      "content": "Kolory"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Tło sekcji",
+      "default": "#FAFAF5"
+    },
+    {
+      "type": "color",
+      "id": "card_bg",
+      "label": "Tło karty",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Kolor liczb (akcent)",
+      "default": "#3B6D11"
+    },
+    {
+      "type": "color",
+      "id": "eyebrow_color",
+      "label": "Kolor tekstu nadrzędnego",
+      "default": "#639922"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Kolor nagłówka",
+      "default": "#2C2C2A"
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Kolor etykiet",
+      "default": "#5F5E5A"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Kolor obramowania kart",
+      "default": "#EAE7DC"
+    },
+    {
+      "type": "header",
+      "content": "Odstępy – desktop"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding górny",
+      "unit": "px",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Odstępy – mobile"
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Padding górny (mobile)",
+      "unit": "px",
+      "min": 0,
+      "max": 80,
+      "step": 2,
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Padding dolny (mobile)",
+      "unit": "px",
+      "min": 0,
+      "max": 80,
+      "step": 2,
+      "default": 24
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Statystyka",
+      "settings": [
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Wartość",
+          "info": "Np. 1846, 6, >350, 24h",
+          "default": "1846"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Etykieta",
+          "default": "Rok założenia"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Polyoil – Statystyki",
+      "category": "Polyoil",
+      "blocks": [
+        {
+          "type": "stat",
+          "settings": {
+            "value": "1846",
+            "label": "Rok założenia"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": "6",
+            "label": "Pokoleń rodziny"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": ">350",
+            "label": "mg/kg polifenoli"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": "24h",
+            "label": "Od zbioru do tłoczenia"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
