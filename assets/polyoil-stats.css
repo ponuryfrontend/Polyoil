@@ -5,18 +5,14 @@
 
 .polyoil-stats {
   background: var(--polyoil-stats-bg, #FAFAF5);
-
   padding-top: var(--polyoil-stats-padding-top, 40px);
   padding-bottom: var(--polyoil-stats-padding-bottom, 40px);
   padding-left: 28px;
   padding-right: 28px;
-
   margin-top: var(--polyoil-stats-margin-top, 0px);
   margin-bottom: var(--polyoil-stats-margin-bottom, 0px);
-
   border-top: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
   border-bottom: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
-
   width: 100%;
   box-sizing: border-box;
 }
@@ -37,9 +33,6 @@
 }
 
 .polyoil-stats__heading {
-  font-family: var(--polyoil-stats-heading-font, Georgia, 'Times New Roman', serif);
-  font-weight: var(--polyoil-stats-heading-weight, 500);
-  font-style: var(--polyoil-stats-heading-style, normal);
   font-size: var(--polyoil-stats-heading-size, 28px);
   color: var(--polyoil-stats-heading, #2C2C2A);
   text-align: center;
@@ -68,9 +61,6 @@
 }
 
 .polyoil-stats__value {
-  font-family: var(--polyoil-stats-value-font, Georgia, 'Times New Roman', serif);
-  font-weight: var(--polyoil-stats-value-weight, 500);
-  font-style: var(--polyoil-stats-value-style, normal);
   font-size: var(--polyoil-stats-value-size, 28px);
   color: var(--polyoil-stats-accent, #3B6D11);
   line-height: 1.1;
@@ -78,9 +68,6 @@
 }
 
 .polyoil-stats__label {
-  font-family: var(--polyoil-stats-label-font, Helvetica, Arial, sans-serif);
-  font-weight: var(--polyoil-stats-label-weight, 400);
-  font-style: var(--polyoil-stats-label-style, normal);
   font-size: var(--polyoil-stats-label-size, 11px);
   color: var(--polyoil-stats-label, #5F5E5A);
   margin-top: 6px;
