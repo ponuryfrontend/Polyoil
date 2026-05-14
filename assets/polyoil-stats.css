@@ -48,7 +48,7 @@
   text-align: center;
   padding: 18px 12px;
   background: var(--polyoil-stats-card-bg, #FFFFFF);
-  border: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
+  border: 0.5px solid #3485C5;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
