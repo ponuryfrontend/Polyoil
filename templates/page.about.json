@@ -152,13 +152,6 @@
     "rich_text_UCpkja": {
       "type": "rich-text",
       "blocks": {
-        "paragraph_Pta97N": {
-          "type": "paragraph",
-          "settings": {
-            "rich_text": "<p>01 — Skąd to się wzięło</p>",
-            "text_alignment": "rich-text--central-alignment"
-          }
-        },
         "heading_7fDKMX": {
           "type": "heading",
           "settings": {
@@ -186,7 +179,6 @@
         }
       },
       "block_order": [
-        "paragraph_Pta97N",
         "heading_7fDKMX",
         "paragraph_FjRmtz",
         "paragraph_enJ96x"
