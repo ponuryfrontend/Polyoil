@@ -39,9 +39,65 @@
         "mobile_margin_bottom": 0,
         "enable_animation": true
       }
+    },
+    "polyoil_stats_Lcp3Em": {
+      "type": "polyoil-stats",
+      "blocks": {
+        "stat_GD6Vee": {
+          "type": "stat",
+          "settings": {
+            "value": "1846",
+            "label": "Rok założenia"
+          }
+        },
+        "stat_Hyyg9z": {
+          "type": "stat",
+          "settings": {
+            "value": "6",
+            "label": "Pokoleń rodziny"
+          }
+        },
+        "stat_aCzYwP": {
+          "type": "stat",
+          "settings": {
+            "value": ">350",
+            "label": "mg/kg polifenoli"
+          }
+        },
+        "stat_Geye8e": {
+          "type": "stat",
+          "settings": {
+            "value": "24h",
+            "label": "Od zbioru do tłoczenia"
+          }
+        }
+      },
+      "block_order": [
+        "stat_GD6Vee",
+        "stat_Hyyg9z",
+        "stat_aCzYwP",
+        "stat_Geye8e"
+      ],
+      "name": "Polyoil – Statystyki",
+      "settings": {
+        "eyebrow": "Peloponez · od 1846",
+        "heading": "Polyoil to grecka oliwa z odmiany Koroneiki, pochodząca z gór Peloponezu. Wybraliśmy ją po 15 latach poszukiwań dla wysokiej zawartości polifenoli, wyjątkowego smaku i jakości.",
+        "bg_color": "#ffffff",
+        "card_bg": "#f5fbff",
+        "accent_color": "#175280",
+        "eyebrow_color": "#175280",
+        "heading_color": "#175280",
+        "label_color": "#3485c5",
+        "border_color": "#3485c5",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
     }
   },
   "order": [
-    "image_banner_GpYzQU"
+    "image_banner_GpYzQU",
+    "polyoil_stats_Lcp3Em"
   ]
 }
