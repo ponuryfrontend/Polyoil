@@ -20,7 +20,9 @@
         "full_width": true,
         "show_border_bottom": false,
         "border_radius": "image-border-radius--none",
+        "image": "shopify://shop_images/oliwki-na-taczce-w-sadzie-oliwnym-desktop.jpg",
         "delay_loader": false,
+        "image_mobile": "shopify://shop_images/oliwki-na-taczce-w-sadzie-oliwnym-mobile.jpg",
         "heading": "Oliwa, której szukaliśmy przez 15 lat",
         "title_style": "normal",
         "header_size": "h2",
@@ -374,7 +376,7 @@
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 72,
         "margin_bottom": 0,
-        "mobile_margin_bottom": 12,
+        "mobile_margin_bottom": 0,
         "enable_animation": true
       }
     },
