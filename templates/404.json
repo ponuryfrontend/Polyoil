@@ -1,11 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-404",
       "settings": {}
+    },
+    "featured_collection_9HrRdK": {
+      "type": "featured-collection",
+      "blocks": {
+        "image_QNHGmr": {
+          "type": "image",
+          "settings": {
+            "image_style": "image-border-radius--curved-top",
+            "show_decorative_icon": false,
+            "section_layout": "image_first",
+            "side_text": "Optional side text"
+          }
+        }
+      },
+      "block_order": [
+        "image_QNHGmr"
+      ],
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "collection": "",
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "heading": "Sprawdź nasze oliwy z oliwek",
+        "title_style": "normal",
+        "heading_size": "h3",
+        "heading_icon": false,
+        "subheading": "Oliwy extra virgin z pierwszego tłoczenia.",
+        "link": "shopify://collections/oleje-spozywcze-oliwa-z-oliwek",
+        "link_text": "View collection",
+        "button_color_scheme": "link link-with-icon",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
+        "margin_bottom": 120,
+        "mobile_margin_bottom": 60,
+        "enable_animation": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_collection_9HrRdK"
   ]
 }
