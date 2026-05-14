@@ -14,10 +14,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_tmhzMp": {
+        "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe": {
           "type": "announcement",
           "settings": {
-            "text": "14 dni na zwrot zamówienia",
+            "text": "Darmowa dostawa na terenie Polski już od 150 PLN",
             "link": ""
           }
         },
@@ -28,18 +28,18 @@
             "link": ""
           }
         },
-        "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe": {
+        "announcement_tmhzMp": {
           "type": "announcement",
           "settings": {
-            "text": "Darmowa dostawa już od 150 PLN",
+            "text": "14 dni na zwrot zamówienia",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_tmhzMp",
+        "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe",
         "announcement_bLkrpH",
-        "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe"
+        "announcement_tmhzMp"
       ],
       "settings": {
         "color_scheme": "background-1",
