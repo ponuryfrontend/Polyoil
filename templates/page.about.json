@@ -12,7 +12,7 @@
     "image_banner_GpYzQU": {
       "type": "image-banner",
       "settings": {
-        "height": "custom-desktop",
+        "height": "large",
         "height_custom": 820,
         "height_mobile": "custom-mobile",
         "height_mobile_custom": 700,
@@ -30,8 +30,8 @@
         "text_alignment": "center",
         "content_position": "bottom-center",
         "show_gradient": true,
-        "link": "/",
-        "link_text": "Add a link text",
+        "link": "shopify://collections/wszystkie-produkty",
+        "link_text": "Wypróbuj",
         "button_color_scheme": "button button--secondary",
         "side_text": "",
         "side_text_position": "left",
