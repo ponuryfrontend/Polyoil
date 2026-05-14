@@ -158,7 +158,7 @@
             "heading": "W poszukiwaniach zdrowszej żywności",
             "title_style": "normal",
             "heading_size": "h3",
-            "heading_alignment": "rich-text--central-alignment",
+            "heading_alignment": "rich-text--left-alignment",
             "decorative_icon": false,
             "icon_position": "rich-text__heading-icon--left"
           }
@@ -167,14 +167,14 @@
           "type": "paragraph",
           "settings": {
             "rich_text": "<p>Od ponad 15 lat zawodowo zajmujemy się zdrową żywnością. Przez ten czas przeszły mi przez ręce setki produktów z różnych krańców świata.</p>",
-            "text_alignment": "rich-text--central-alignment"
+            "text_alignment": "rich-text--left-alignment"
           }
         },
         "paragraph_enJ96x": {
           "type": "paragraph",
           "settings": {
             "rich_text": "<p>Wysokopolifenolowa oliwa z oliwek była jednym z odkryć, które zmieniły nasz sposób gotowania i jednym z najtrudniejszych produktów do znalezienia w jakości, której naprawdę szukaliśmy. Szukaliśmy oliwy świeżej, naturalnej, bogatej w polifenole, ale jednocześnie takiej, którą z przyjemnością można dodawać do codziennych posiłków.</p>",
-            "text_alignment": "rich-text--central-alignment"
+            "text_alignment": "rich-text--left-alignment"
           }
         }
       },
@@ -325,6 +325,58 @@
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0
       }
+    },
+    "rich_text_xjMJfV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LPeNh7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Codziennie, prosto i z przyjemnością",
+            "title_style": "normal",
+            "heading_size": "h2",
+            "heading_alignment": "rich-text--left-alignment",
+            "decorative_icon": false,
+            "icon_position": "rich-text__heading-icon--left"
+          }
+        },
+        "paragraph_aUJWRP": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Polyoil najlepiej sprawdza się na zimno — jako dodatek do sałatek, pomidorów, pieczywa, makaronu, warzyw, hummusu czy gotowych dań tuż przed podaniem.</p><p>Jej intensywny, świeży smak nie potrzebuje wiele. Wystarczy łyżka oliwy, dobre pieczywo, pomidory albo odrobina soli, żeby poczuć różnicę.</p><p>To oliwa, którą możesz pić łyżką, ale też używać codziennie w kuchni.</p>",
+            "text_alignment": "rich-text--left-alignment"
+          }
+        },
+        "link_aGq9YT": {
+          "type": "link",
+          "settings": {
+            "link": "shopify://blogs/aktualnosci",
+            "link_text": "BLOG",
+            "link_alignment": "rich-text--left-alignment",
+            "button_color_scheme": "button"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LPeNh7",
+        "paragraph_aUJWRP",
+        "link_aGq9YT"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "full_width": true,
+        "content_width_range": 70,
+        "content_position": "middle",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 72,
+        "margin_bottom": 120,
+        "mobile_margin_bottom": 60,
+        "enable_animation": true
+      }
     }
   },
   "order": [
@@ -333,6 +385,7 @@
     "image_banner_iYNB4C",
     "rich_text_UCpkja",
     "images_and_text_LaFDzy",
-    "polyoil_why_LBTxax"
+    "polyoil_why_LBTxax",
+    "rich_text_xjMJfV"
   ]
 }
