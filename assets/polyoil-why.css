@@ -38,9 +38,6 @@
 
 /* ---------- Wspólne style nagłówków ---------- */
 .polyoil-why__heading {
-  font-family: var(--polyoil-why-heading-font, inherit);
-  font-weight: var(--polyoil-why-heading-weight, 500);
-  font-style: var(--polyoil-why-heading-style, normal);
   font-size: var(--polyoil-why-heading-size, 32px);
   color: var(--polyoil-why-heading, #2C2C2A);
   line-height: 1.25;
