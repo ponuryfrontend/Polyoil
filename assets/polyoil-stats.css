@@ -5,12 +5,18 @@
 
 .polyoil-stats {
   background: var(--polyoil-stats-bg, #FAFAF5);
+
   padding-top: var(--polyoil-stats-padding-top, 40px);
   padding-bottom: var(--polyoil-stats-padding-bottom, 40px);
   padding-left: 28px;
   padding-right: 28px;
+
+  margin-top: var(--polyoil-stats-margin-top, 0px);
+  margin-bottom: var(--polyoil-stats-margin-bottom, 0px);
+
   border-top: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
   border-bottom: 0.5px solid var(--polyoil-stats-border, #EAE7DC);
+
   width: 100%;
   box-sizing: border-box;
 }
@@ -22,19 +28,22 @@
 }
 
 .polyoil-stats__eyebrow {
-  font-size: 11px;
+  font-family: var(--polyoil-stats-eyebrow-font, Helvetica, Arial, sans-serif);
+  font-weight: var(--polyoil-stats-eyebrow-weight, 400);
+  font-style: var(--polyoil-stats-eyebrow-style, normal);
+  font-size: var(--polyoil-stats-eyebrow-size, 11px);
   color: var(--polyoil-stats-eyebrow, #639922);
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 12px;
-  font-weight: 500;
 }
 
 .polyoil-stats__heading {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 28px;
-  font-weight: 500;
+  font-family: var(--polyoil-stats-heading-font, Georgia, 'Times New Roman', serif);
+  font-weight: var(--polyoil-stats-heading-weight, 500);
+  font-style: var(--polyoil-stats-heading-style, normal);
+  font-size: var(--polyoil-stats-heading-size, 28px);
   color: var(--polyoil-stats-heading, #2C2C2A);
   text-align: center;
   margin: 0 0 28px;
@@ -44,7 +53,7 @@
 .polyoil-stats__grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  gap: var(--polyoil-stats-gap, 14px);
 }
 
 .polyoil-stats__card {
@@ -62,16 +71,20 @@
 }
 
 .polyoil-stats__value {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 28px;
-  font-weight: 500;
+  font-family: var(--polyoil-stats-value-font, Georgia, 'Times New Roman', serif);
+  font-weight: var(--polyoil-stats-value-weight, 500);
+  font-style: var(--polyoil-stats-value-style, normal);
+  font-size: var(--polyoil-stats-value-size, 28px);
   color: var(--polyoil-stats-accent, #3B6D11);
   line-height: 1.1;
   word-break: break-word;
 }
 
 .polyoil-stats__label {
-  font-size: 11px;
+  font-family: var(--polyoil-stats-label-font, Helvetica, Arial, sans-serif);
+  font-weight: var(--polyoil-stats-label-weight, 400);
+  font-style: var(--polyoil-stats-label-style, normal);
+  font-size: var(--polyoil-stats-label-size, 11px);
   color: var(--polyoil-stats-label, #5F5E5A);
   margin-top: 6px;
   letter-spacing: 0.5px;
@@ -101,10 +114,6 @@
   .polyoil-stats__grid[data-count="5"],
   .polyoil-stats__grid[data-count="6"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
-  }
-  .polyoil-stats__value {
-    font-size: 24px;
   }
 }
 
@@ -115,42 +124,47 @@
     padding-bottom: var(--polyoil-stats-padding-bottom-mobile, 24px);
     padding-left: 16px;
     padding-right: 16px;
+
+    margin-top: var(--polyoil-stats-margin-top-mobile, 0px);
+    margin-bottom: var(--polyoil-stats-margin-bottom-mobile, 0px);
   }
+
   .polyoil-stats__grid,
   .polyoil-stats__grid[data-count="3"],
   .polyoil-stats__grid[data-count="5"],
   .polyoil-stats__grid[data-count="6"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
+    gap: var(--polyoil-stats-gap-mobile, 8px);
   }
-  .polyoil-stats__heading {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
+
   .polyoil-stats__eyebrow {
-    font-size: 10px;
+    font-size: var(--polyoil-stats-eyebrow-size-mobile, 10px);
     letter-spacing: 1.5px;
     margin-bottom: 10px;
   }
+
+  .polyoil-stats__heading {
+    font-size: var(--polyoil-stats-heading-size-mobile, 22px);
+    margin-bottom: 20px;
+  }
+
   .polyoil-stats__card {
     padding: 14px 8px;
   }
+
   .polyoil-stats__value {
-    font-size: 20px;
+    font-size: var(--polyoil-stats-value-size-mobile, 20px);
   }
+
   .polyoil-stats__label {
-    font-size: 10px;
+    font-size: var(--polyoil-stats-label-size-mobile, 10px);
     margin-top: 4px;
   }
 }
 
 /* ---------- Bardzo wąskie ekrany (<360px) ---------- */
 @media (max-width: 359px) {
-  .polyoil-stats__value {
-    font-size: 18px;
-  }
   .polyoil-stats__label {
-    font-size: 9px;
     letter-spacing: 0.3px;
   }
 }

@@ -1,5 +1,12 @@
 {{ 'polyoil-stats.css' | asset_url | stylesheet_tag }}
 
+{% style %}
+  {{ section.settings.eyebrow_font | font_face: font_display: 'swap' }}
+  {{ section.settings.heading_font | font_face: font_display: 'swap' }}
+  {{ section.settings.value_font | font_face: font_display: 'swap' }}
+  {{ section.settings.label_font | font_face: font_display: 'swap' }}
+{% endstyle %}
+
 <section
   class="polyoil-stats"
   style="
@@ -10,10 +17,43 @@
     --polyoil-stats-label: {{ section.settings.label_color }};
     --polyoil-stats-heading: {{ section.settings.heading_color }};
     --polyoil-stats-border: {{ section.settings.border_color }};
+
+    --polyoil-stats-eyebrow-font: {{ section.settings.eyebrow_font.family }}, {{ section.settings.eyebrow_font.fallback_families }};
+    --polyoil-stats-eyebrow-weight: {{ section.settings.eyebrow_font.weight }};
+    --polyoil-stats-eyebrow-style: {{ section.settings.eyebrow_font.style }};
+    --polyoil-stats-eyebrow-size: {{ section.settings.eyebrow_size }}px;
+    --polyoil-stats-eyebrow-size-mobile: {{ section.settings.eyebrow_size_mobile }}px;
+
+    --polyoil-stats-heading-font: {{ section.settings.heading_font.family }}, {{ section.settings.heading_font.fallback_families }};
+    --polyoil-stats-heading-weight: {{ section.settings.heading_font.weight }};
+    --polyoil-stats-heading-style: {{ section.settings.heading_font.style }};
+    --polyoil-stats-heading-size: {{ section.settings.heading_size }}px;
+    --polyoil-stats-heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
+
+    --polyoil-stats-value-font: {{ section.settings.value_font.family }}, {{ section.settings.value_font.fallback_families }};
+    --polyoil-stats-value-weight: {{ section.settings.value_font.weight }};
+    --polyoil-stats-value-style: {{ section.settings.value_font.style }};
+    --polyoil-stats-value-size: {{ section.settings.value_size }}px;
+    --polyoil-stats-value-size-mobile: {{ section.settings.value_size_mobile }}px;
+
+    --polyoil-stats-label-font: {{ section.settings.label_font.family }}, {{ section.settings.label_font.fallback_families }};
+    --polyoil-stats-label-weight: {{ section.settings.label_font.weight }};
+    --polyoil-stats-label-style: {{ section.settings.label_font.style }};
+    --polyoil-stats-label-size: {{ section.settings.label_size }}px;
+    --polyoil-stats-label-size-mobile: {{ section.settings.label_size_mobile }}px;
+
     --polyoil-stats-padding-top: {{ section.settings.padding_top }}px;
     --polyoil-stats-padding-bottom: {{ section.settings.padding_bottom }}px;
     --polyoil-stats-padding-top-mobile: {{ section.settings.padding_top_mobile }}px;
     --polyoil-stats-padding-bottom-mobile: {{ section.settings.padding_bottom_mobile }}px;
+
+    --polyoil-stats-margin-top: {{ section.settings.margin_top }}px;
+    --polyoil-stats-margin-bottom: {{ section.settings.margin_bottom }}px;
+    --polyoil-stats-margin-top-mobile: {{ section.settings.margin_top_mobile }}px;
+    --polyoil-stats-margin-bottom-mobile: {{ section.settings.margin_bottom_mobile }}px;
+
+    --polyoil-stats-gap: {{ section.settings.card_gap }}px;
+    --polyoil-stats-gap-mobile: {{ section.settings.card_gap_mobile }}px;
   "
 >
   <div class="polyoil-stats__inner">
@@ -67,6 +107,7 @@
       "label": "Nagłówek (opcjonalny)",
       "info": "Zostaw puste, jeśli chcesz pokazać tylko liczby."
     },
+
     {
       "type": "header",
       "content": "Kolory"
@@ -113,9 +154,134 @@
       "label": "Kolor obramowania kart",
       "default": "#EAE7DC"
     },
+
     {
       "type": "header",
-      "content": "Odstępy – desktop"
+      "content": "Typografia – eyebrow"
+    },
+    {
+      "type": "font_picker",
+      "id": "eyebrow_font",
+      "label": "Czcionka",
+      "default": "helvetica_n4"
+    },
+    {
+      "type": "range",
+      "id": "eyebrow_size",
+      "label": "Rozmiar (desktop)",
+      "unit": "px",
+      "min": 9,
+      "max": 22,
+      "step": 1,
+      "default": 11
+    },
+    {
+      "type": "range",
+      "id": "eyebrow_size_mobile",
+      "label": "Rozmiar (mobile)",
+      "unit": "px",
+      "min": 8,
+      "max": 18,
+      "step": 1,
+      "default": 10
+    },
+
+    {
+      "type": "header",
+      "content": "Typografia – nagłówek"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Czcionka",
+      "default": "georgia_n4"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Rozmiar (desktop)",
+      "unit": "px",
+      "min": 16,
+      "max": 56,
+      "step": 1,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Rozmiar (mobile)",
+      "unit": "px",
+      "min": 14,
+      "max": 40,
+      "step": 1,
+      "default": 22
+    },
+
+    {
+      "type": "header",
+      "content": "Typografia – liczba"
+    },
+    {
+      "type": "font_picker",
+      "id": "value_font",
+      "label": "Czcionka",
+      "default": "georgia_n4"
+    },
+    {
+      "type": "range",
+      "id": "value_size",
+      "label": "Rozmiar (desktop)",
+      "unit": "px",
+      "min": 18,
+      "max": 64,
+      "step": 1,
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "value_size_mobile",
+      "label": "Rozmiar (mobile)",
+      "unit": "px",
+      "min": 14,
+      "max": 44,
+      "step": 1,
+      "default": 20
+    },
+
+    {
+      "type": "header",
+      "content": "Typografia – etykieta"
+    },
+    {
+      "type": "font_picker",
+      "id": "label_font",
+      "label": "Czcionka",
+      "default": "helvetica_n4"
+    },
+    {
+      "type": "range",
+      "id": "label_size",
+      "label": "Rozmiar (desktop)",
+      "unit": "px",
+      "min": 9,
+      "max": 20,
+      "step": 1,
+      "default": 11
+    },
+    {
+      "type": "range",
+      "id": "label_size_mobile",
+      "label": "Rozmiar (mobile)",
+      "unit": "px",
+      "min": 8,
+      "max": 16,
+      "step": 1,
+      "default": 10
+    },
+
+    {
+      "type": "header",
+      "content": "Padding (wewnątrz) – desktop"
     },
     {
       "type": "range",
@@ -123,7 +289,7 @@
       "label": "Padding górny",
       "unit": "px",
       "min": 0,
-      "max": 120,
+      "max": 160,
       "step": 4,
       "default": 40
     },
@@ -133,33 +299,109 @@
       "label": "Padding dolny",
       "unit": "px",
       "min": 0,
-      "max": 120,
+      "max": 160,
       "step": 4,
       "default": 40
     },
+
     {
       "type": "header",
-      "content": "Odstępy – mobile"
+      "content": "Padding (wewnątrz) – mobile"
     },
     {
       "type": "range",
       "id": "padding_top_mobile",
-      "label": "Padding górny (mobile)",
+      "label": "Padding górny",
       "unit": "px",
       "min": 0,
-      "max": 80,
+      "max": 100,
       "step": 2,
       "default": 24
     },
     {
       "type": "range",
       "id": "padding_bottom_mobile",
-      "label": "Padding dolny (mobile)",
+      "label": "Padding dolny",
       "unit": "px",
       "min": 0,
-      "max": 80,
+      "max": 100,
       "step": 2,
       "default": 24
+    },
+
+    {
+      "type": "header",
+      "content": "Margin (zewnątrz) – desktop"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "Margines górny",
+      "unit": "px",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "Margines dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "Margin (zewnątrz) – mobile"
+    },
+    {
+      "type": "range",
+      "id": "margin_top_mobile",
+      "label": "Margines górny",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_mobile",
+      "label": "Margines dolny",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "default": 0
+    },
+
+    {
+      "type": "header",
+      "content": "Odstęp między kartami"
+    },
+    {
+      "type": "range",
+      "id": "card_gap",
+      "label": "Gap (desktop)",
+      "unit": "px",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "card_gap_mobile",
+      "label": "Gap (mobile)",
+      "unit": "px",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "default": 8
     }
   ],
   "blocks": [
