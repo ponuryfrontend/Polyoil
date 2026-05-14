@@ -81,7 +81,7 @@
       "name": "Polyoil – Statystyki",
       "settings": {
         "eyebrow": "Peloponez · od 1846",
-        "heading": "Polyoil to grecka oliwa z odmiany Koroneiki, pochodząca z gór Peloponezu. Wybraliśmy ją po 15 latach poszukiwań dla wysokiej zawartości polifenoli, wyjątkowego smaku i jakości.",
+        "heading": "Polyoil to grecka oliwa z odmiany Koroneiki, pochodząca z gór Peloponezu. Wysoka zawartości polifenoli, wyjątkowy smak i jakości.",
         "bg_color": "#ffffff",
         "card_bg": "#f5fbff",
         "accent_color": "#175280",
@@ -94,10 +94,69 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
+    },
+    "rich_text_UCpkja": {
+      "type": "rich-text",
+      "blocks": {
+        "paragraph_Pta97N": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>01 — Skąd to się wzięło</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        },
+        "heading_7fDKMX": {
+          "type": "heading",
+          "settings": {
+            "heading": "W poszukiwaniach zdrowszej żywności",
+            "title_style": "normal",
+            "heading_size": "h3",
+            "heading_alignment": "rich-text--central-alignment",
+            "decorative_icon": false,
+            "icon_position": "rich-text__heading-icon--left"
+          }
+        },
+        "paragraph_FjRmtz": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Od ponad 15 lat zawodowo zajmuję się zdrową żywnością. Przez ten czas przeszły mi przez ręce setki produktów z różnych krańców świata.</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        },
+        "paragraph_enJ96x": {
+          "type": "paragraph",
+          "settings": {
+            "rich_text": "<p>Give customers details about your store content on the template.</p>",
+            "text_alignment": "rich-text--central-alignment"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_Pta97N",
+        "heading_7fDKMX",
+        "paragraph_FjRmtz",
+        "paragraph_enJ96x"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "color_scheme": "",
+        "show_border_bottom": false,
+        "full_width": true,
+        "content_width_range": 100,
+        "content_position": "middle",
+        "padding_top": 84,
+        "padding_bottom": 84,
+        "mobile_padding_top": 44,
+        "mobile_padding_bottom": 44,
+        "margin_bottom": 0,
+        "mobile_margin_bottom": 0,
+        "enable_animation": true
+      }
     }
   },
   "order": [
     "image_banner_GpYzQU",
-    "polyoil_stats_Lcp3Em"
+    "polyoil_stats_Lcp3Em",
+    "rich_text_UCpkja"
   ]
 }
