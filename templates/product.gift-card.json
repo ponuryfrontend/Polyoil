@@ -82,26 +82,6 @@
             "title_style": "uppercase",
             "faqs_answer": "{{ product.description }}"
           }
-        },
-        "collapsible_content_KAjL8B": {
-          "type": "collapsible_content",
-          "settings": {
-            "display_type": "accordion",
-            "faq_open": false,
-            "faqs_question": "Wysyłka",
-            "title_style": "uppercase",
-            "faqs_answer": ""
-          }
-        },
-        "collapsible_content_wGb9pj": {
-          "type": "collapsible_content",
-          "settings": {
-            "display_type": "accordion",
-            "faq_open": false,
-            "faqs_question": "Zwroty",
-            "title_style": "uppercase",
-            "faqs_answer": ""
-          }
         }
       },
       "block_order": [
@@ -113,9 +93,7 @@
         "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6",
         "buy_buttons",
         "usp_JTCnmF",
-        "collapsible_content_NghLWy",
-        "collapsible_content_KAjL8B",
-        "collapsible_content_wGb9pj"
+        "collapsible_content_NghLWy"
       ],
       "settings": {
         "color_scheme": "background-1",
