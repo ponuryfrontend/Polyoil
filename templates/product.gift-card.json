@@ -98,7 +98,7 @@
       "settings": {
         "color_scheme": "background-1",
         "show_breadcrumbs": true,
-        "show_border_bottom": true,
+        "show_border_bottom": false,
         "product_gallery_zoom": true,
         "image_ratio": "adapt",
         "media_size": "large",
