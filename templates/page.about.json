@@ -215,9 +215,9 @@
           "settings": {
             "secondary_image": "shopify://shop_images/IMG_0047.jpg",
             "delay_loader": false,
-            "aspect_ratio": "portrait",
+            "aspect_ratio": "square",
             "secondary_image_style": "image-border-radius--curved-top",
-            "side_text": "Provide more details here"
+            "side_text": "Sprawdź wartości polifenoli i zdrowych tłuszczy"
           }
         },
         "content_DADdah": {
