@@ -104,7 +104,7 @@
         "height_mobile": "large-mobile",
         "height_mobile_custom": 760,
         "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
-        "full_width": true,
+        "full_width": false,
         "show_border_bottom": false,
         "border_radius": "image-border-radius--none",
         "image": "shopify://shop_images/oliwa-z-oliwek-prosto-z-grecji-banner-1_4277dac4-554f-4ed9-9301-eef7560da445.jpg",
