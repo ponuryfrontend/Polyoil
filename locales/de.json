@@ -109,7 +109,9 @@
       "read_more": "Mehr lesen",
       "comments": {
         "one": "{{ count }} Kommentar",
-        "other": "{{ count }} Kommentare"
+        "other": "{{ count }} Kommentare",
+        "few": "{{ count }} Kommentar(e)",
+        "many": "{{ count }} Kommentar(e)"
       },
       "moderated": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung genehmigt werden müssen.",
       "comment_form_title": "Kommentar hinterlassen",
@@ -194,7 +196,9 @@
       "filter_button": "Filtern",
       "filters_selected": {
         "one": "{{ count }} ausgewählt",
-        "other": "{{ count }} ausgewählt"
+        "other": "{{ count }} ausgewählt",
+        "few": "Ausgewählt: {{ count }}",
+        "many": "Ausgewählt: {{ count }}"
       },
       "filter_selected_accessibility": "{{ type }} ({{ count }} Filter ausgewählt)",
       "show_more": "Mehr anzeigen",
@@ -206,7 +210,9 @@
       },
       "product_count_simple": {
         "one": "{{ count }} Produkt",
-        "other": "{{ count }} Produkte"
+        "other": "{{ count }} Produkte",
+        "few": "{{ count }} Artikel",
+        "many": "{{ count }} Artikel"
       },
       "reset": "Zurücksetzen",
       "sort_button": "Sortieren",
@@ -268,7 +274,9 @@
       "menu": "Menü",
       "cart_count": {
         "one": "{{ count }} Artikel",
-        "other": "{{ count }} Artikel"
+        "other": "{{ count }} Artikel",
+        "few": "{{ count }} Elemente",
+        "many": "{{ count }} Elemente"
       }
     },
     "cart": {
@@ -332,7 +340,9 @@
       "filter_button": "Filtern",
       "filters_selected": {
         "one": "{{ count }} ausgewählt",
-        "other": "{{ count }} ausgewählt"
+        "other": "{{ count }} ausgewählt",
+        "few": "{{ count }} ausgewählt",
+        "many": "{{ count }} ausgewählt"
       },
       "max_price": "Der höchste Preis ist {{ price }}",
       "product_count": {
@@ -586,6 +596,256 @@
         "location_far_away_other_items": {
           "few": "%{count} Standorte mit Ihren Artikeln",
           "many": "%{count} Standorte mit Ihren Einträgen"
+        }
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "few": "Cluster von {{number}} Markern",
+            "many": "Cluster von {{number}} Markern"
+          }
+        }
+      },
+      "stock": {
+        "item_label": {
+          "few": "{{count}} Position(en)",
+          "many": "{{count}} Position(en)"
+        }
+      },
+      "order_summary": {
+        "unit_price": {
+          "per_item": {
+            "few": "%{price} für %{count} Stk.",
+            "many": "%{price} für %{count} Stk."
+          }
+        },
+        "expand_component_information": {
+          "few": "Zeige %{count} Einträge",
+          "many": "Zeige %{count} Einträge"
+        },
+        "collapse_component_information": {
+          "few": "%{count} Elemente ausblenden",
+          "many": "%{count} Elemente ausblenden"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "few": "%{count} Posten",
+            "many": "%{count} Posten"
+          }
+        },
+        "discount_title_stacking": {
+          "few": "Rabatte",
+          "many": "Rabatte"
+        },
+        "discount_order_stacking": {
+          "few": "Rabatte auf Bestellungen",
+          "many": "Rabatte auf Bestellungen"
+        },
+        "number_items": {
+          "few": "%{count} Posten",
+          "many": "%{count} Posten"
+        },
+        "discount_code_applied_count": {
+          "few": "Zeige %{count} Rabatte",
+          "many": "Zeige %{count} Rabatte"
+        }
+      },
+      "shipping": {
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "few": "für %{count} Lieferungen",
+            "many": "für %{count} Lieferungen"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "few": "alle %{count} Tage",
+              "many": "alle %{count} Tage"
+            },
+            "week": {
+              "few": "alle %{count} Wochen",
+              "many": "alle %{count} Wochen"
+            },
+            "year": {
+              "few": "alle %{count} Jahre",
+              "many": "alle %{count} Jahre"
+            }
+          }
+        },
+        "shipping_method_first_shipment_group_title": {
+          "few": "Erste Lieferungen",
+          "many": "Erste Lieferungen"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "few": "Wiederkehrende Sendungen",
+          "many": "Wiederkehrende Sendungen"
+        }
+      },
+      "payment": {
+        "order_edit_banner_items_added": {
+          "few": "Hinzugefügt: %{count}",
+          "many": "Hinzugefügt: %{count}"
+        },
+        "discount_show_more_warnings": {
+          "few": "Zeige %{count} weitere",
+          "many": "Zeige %{count} weitere"
+        }
+      },
+      "thank_you": {
+        "login_reorder_link_text": {
+          "few": "diese Produkte auch kaufen",
+          "many": "diese Produkte auch kaufen"
+        },
+        "thank_you_unconfirmed_items_description": {
+          "few": "Ihnen wurden diese nicht berechnet",
+          "many": "Ihnen wurden diese nicht berechnet"
+        },
+        "thank_you_item_label": {
+          "few": "Positionen: %{count}",
+          "many": "Positionen: %{count}"
+        }
+      },
+      "review": {
+        "blocks": {
+          "pickup_items_at": {
+            "few": "Empfang von %{count} Artikeln in",
+            "many": "Empfang von %{count} Artikeln in"
+          },
+          "ship_items_to": {
+            "few": "Versand von %{count} Artikeln nach",
+            "many": "Versand von %{count} Artikeln nach"
+          }
+        }
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "few": "Hinzugefügt: %{count}",
+            "many": "Hinzugefügt: %{count}"
+          }
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "few": "%{count} Tage",
+            "many": "%{count} Tage"
+          },
+          "week": {
+            "few": "%{count} Wochen",
+            "many": "%{count} Wochen"
+          },
+          "month": {
+            "few": "%{count} Monate",
+            "many": "%{count} Monate"
+          },
+          "year": {
+            "few": "%{count} Jahre",
+            "many": "%{count} Jahre"
+          }
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "few": "Nicht verfügbare Produkte",
+          "many": "Nicht verfügbare Produkte"
+        }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "remove_items_action": {
+          "few": "Nicht verfügbare Elemente entfernen",
+          "many": "Nicht verfügbare Elemente entfernen"
+        }
+      },
+      "remote_merchandise_only": {
+        "detail_item_label": {
+          "few": "{{count}} Position(en)",
+          "many": "{{count}} Position(en)"
+        }
+      },
+      "split_delivery": {
+        "inventory_issue_banner": {
+          "remove_item": {
+            "few": "Positionen löschen",
+            "many": "Positionen löschen"
+          },
+          "ship_separately": {
+            "few": "Senden Sie sie separat.",
+            "many": "Senden Sie sie separat."
+          },
+          "pick_them_up_in_store": {
+            "few": "Hol sie im Laden ab",
+            "many": "Hol sie im Laden ab"
+          },
+          "remove_item_only": {
+            "few": "Positionen löschen",
+            "many": "Positionen löschen"
+          }
+        },
+        "pickup_items_count": {
+          "few": "Empfang %{count} Pos.",
+          "many": "Empfang %{count} Pos."
+        },
+        "ship_items_count": {
+          "few": "Versand von %{count} Art.",
+          "many": "Versand von %{count} Art."
+        }
+      }
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "few": "Sonstige",
+          "many": "Sonstige"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "items": {
+          "few": "{{count}} Position(en)",
+          "many": "{{count}} Position(en)"
+        }
+      },
+      "order_status": {
+        "gift_card_label": {
+          "few": "Geschenkkarten",
+          "many": "Geschenkkarten"
+        },
+        "tracking_number": {
+          "few": "Sendungsverfolgungsnummern",
+          "many": "Sendungsverfolgungsnummern"
+        }
+      }
+    },
+    "order_details": {
+      "discount_order_stacking": {
+        "few": "Rabatte auf Bestellung",
+        "many": "Rabatte auf Bestellung"
+      }
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "subscription_contracts": {
+          "product_count": {
+            "few": "{{count}} Produkte",
+            "many": "{{count}} Produkte"
+          }
+        }
+      }
+    },
+    "ui_components": {
+      "month": {
+        "few": "Monate",
+        "many": "Monate"
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "few": "vor {{count}} Min.",
+          "many": "vor {{count}} Min."
         }
       }
     }
