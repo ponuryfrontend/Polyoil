@@ -1,15 +1,60 @@
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
-  assign lowest_price = current_variant.price
 -%}
 
 {{ 'lowest-price-30-days.css' | asset_url | stylesheet_tag }}
 
-<p class="lowest-price-30-days">
+<script id="lowest-price-data-{{ product.id }}" type="application/json">
+  {
+    {%- for variant in product.variants -%}
+      {{ variant.id | json }}: {{ variant.price | money | json }}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  }
+</script>
+
+<p
+  class="lowest-price-30-days"
+  data-lowest-price-30-days="{{ product.id }}"
+>
   <span class="lowest-price-30-days__label">
-  {{ 'products.product.lowest_price_30_days' | t | default: 'Lowest price (30 days):' }}
+    {{ 'products.product.lowest_price_30_days' | t | default: 'Lowest price (30 days):' }}
   </span>
-  <span class="lowest-price-30-days__price">
-    {{ lowest_price | money }}
+  <span class="lowest-price-30-days__price" data-lowest-price-value>
+    {{ current_variant.price | money }}
   </span>
 </p>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var productId = {{ product.id }};
+    var container = document.querySelector('[data-lowest-price-30-days="' + productId + '"]');
+    if (!container) return;
+
+    var priceEl = container.querySelector('[data-lowest-price-value]');
+    var dataEl = document.getElementById('lowest-price-data-' + productId);
+    if (!priceEl || !dataEl) return;
+
+    var variantPrices = JSON.parse(dataEl.textContent);
+
+    function updatePrice(variantId) {
+      var price = variantPrices[variantId];
+      if (price !== undefined) {
+        priceEl.innerHTML = price;
+      }
+    }
+
+    // Standard Shopify variant select / radio inputs
+    document.querySelectorAll('[name="id"]').forEach(function (el) {
+      el.addEventListener('change', function () {
+        updatePrice(this.value);
+      });
+    });
+
+    // Dawn / Horizon theme custom event
+    document.addEventListener('variant:changed', function (e) {
+      if (e.detail && e.detail.variant) {
+        updatePrice(String(e.detail.variant.id));
+      }
+    });
+  });
+</script>
