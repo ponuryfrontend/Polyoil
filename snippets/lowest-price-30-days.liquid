@@ -24,33 +24,4 @@
   </span>
 </p>
 
-<script>
-  (function () {
-    var productId = {{ product.id }};
-    var dataEl = document.getElementById('lowest-price-data-' + productId);
-    if (!dataEl) return;
-
-    var variantPrices = JSON.parse(dataEl.textContent);
-
-    function getContainer() {
-      return document.querySelector('[data-lowest-price-30-days="' + productId + '"]');
-    }
-
-    function updatePrice(variantId) {
-      var price = variantPrices[variantId];
-      if (price === undefined) return;
-      var container = getContainer();
-      if (!container) return;
-      var priceEl = container.querySelector('[data-lowest-price-value]');
-      if (priceEl) priceEl.innerHTML = price;
-    }
-
-    // Event delegation — catches both initial selects and post-AJAX variant inputs
-    // (theme dispatches bubbling "change" on input[name="id"] in updateVariantInputs)
-    document.addEventListener('change', function (e) {
-      if (e.target && e.target.name === 'id') {
-        updatePrice(e.target.value);
-      }
-    });
-  })();
-</script>
+<script src="{{ 'lowest-price-30-days.js' | asset_url }}" defer></script>
