@@ -25,36 +25,32 @@
 </p>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  (function () {
     var productId = {{ product.id }};
-    var container = document.querySelector('[data-lowest-price-30-days="' + productId + '"]');
-    if (!container) return;
-
-    var priceEl = container.querySelector('[data-lowest-price-value]');
     var dataEl = document.getElementById('lowest-price-data-' + productId);
-    if (!priceEl || !dataEl) return;
+    if (!dataEl) return;
 
     var variantPrices = JSON.parse(dataEl.textContent);
 
-    function updatePrice(variantId) {
-      var price = variantPrices[variantId];
-      if (price !== undefined) {
-        priceEl.innerHTML = price;
-      }
+    function getContainer() {
+      return document.querySelector('[data-lowest-price-30-days="' + productId + '"]');
     }
 
-    // Standard Shopify variant select / radio inputs
-    document.querySelectorAll('[name="id"]').forEach(function (el) {
-      el.addEventListener('change', function () {
-        updatePrice(this.value);
-      });
-    });
+    function updatePrice(variantId) {
+      var price = variantPrices[variantId];
+      if (price === undefined) return;
+      var container = getContainer();
+      if (!container) return;
+      var priceEl = container.querySelector('[data-lowest-price-value]');
+      if (priceEl) priceEl.innerHTML = price;
+    }
 
-    // Dawn / Horizon theme custom event
-    document.addEventListener('variant:changed', function (e) {
-      if (e.detail && e.detail.variant) {
-        updatePrice(String(e.detail.variant.id));
+    // Event delegation — catches both initial selects and post-AJAX variant inputs
+    // (theme dispatches bubbling "change" on input[name="id"] in updateVariantInputs)
+    document.addEventListener('change', function (e) {
+      if (e.target && e.target.name === 'id') {
+        updatePrice(e.target.value);
       }
     });
-  });
+  })();
 </script>
