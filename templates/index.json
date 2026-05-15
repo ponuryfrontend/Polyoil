@@ -320,12 +320,27 @@
         "show_border_bottom": false,
         "section_layout": "text_first",
         "padding_top": 80,
-        "padding_bottom": 100,
+        "padding_bottom": 0,
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 84,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0,
         "enable_animation": true
+      }
+    },
+    "1778830923193d702e": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_featured_reviews_carousel_TVqdEq": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/featured-reviews-carousel/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_featured_reviews_carousel_TVqdEq"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_q6AdpR": {
@@ -379,21 +394,6 @@
         "mobile_margin_bottom": 28,
         "enable_animation": true
       }
-    },
-    "1778830923193d702e": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_reviews_featured_reviews_carousel_TVqdEq": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/featured-reviews-carousel/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "klaviyo_reviews_featured_reviews_carousel_TVqdEq"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -403,8 +403,8 @@
     "rich_text_bfM4A9",
     "multicolumn_VmamUE",
     "images_and_text_XH7EHN",
+    "1778830923193d702e",
     "rich_text_q6AdpR",
-    "custom_liquid_DTGK8x",
-    "1778830923193d702e"
+    "custom_liquid_DTGK8x"
   ]
 }
