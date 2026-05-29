@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -26,17 +19,17 @@
             "title_style": "uppercase"
           }
         },
-        "klaviyo_reviews_average_rating_gK3YrW": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
             "price_show_tax_message": false,
             "price_show_shipping_info": false
+          }
+        },
+        "klaviyo_reviews_average_rating_gK3YrW": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "variant_picker": {
@@ -91,10 +84,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "klaviyo_reviews_average_rating_gK3YrW",
         "price",
+        "klaviyo_reviews_average_rating_gK3YrW",
         "variant_picker",
         "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6",
         "buy_buttons",
