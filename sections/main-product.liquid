@@ -16,6 +16,23 @@
     color: {{ settings.product_gallery_arrows_color }};
   }
 {% endstyle %}
+<div class="promo-bar-dd25" style="background:#1a3a5c;color:#fff;padding:12px 16px;border-radius:6px;margin-bottom:12px;text-align:center;font-size:14px;">
+  🎁 Masz <strong>25% rabatu</strong> — kliknij, żeby zastosować:
+  <br><br>
+  <button onclick="applyDiscountDD25()" style="background:#fff;color:#1a3a5c;border:none;padding:8px 20px;border-radius:4px;font-weight:bold;cursor:pointer;font-size:14px;">
+    Zastosuj kod DD25
+  </button>
+  <span id="dd25-confirm" style="display:none;font-weight:bold;"> ✓ Kod zastosowany!</span>
+</div>
+
+<script>
+function applyDiscountDD25() {
+  fetch('/discount/DD25').then(function() {
+    document.getElementById('dd25-confirm').style.display = 'inline';
+    document.querySelector('.promo-bar-dd25 button').style.display = 'none';
+  });
+}
+</script>
 
 <product-info
   id="MainProduct-{{ section.id }}"
