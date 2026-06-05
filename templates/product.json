@@ -19,17 +19,17 @@
             "title_style": "uppercase"
           }
         },
+        "klaviyo_reviews_average_rating_gK3YrW": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
             "price_show_tax_message": false,
             "price_show_shipping_info": false
-          }
-        },
-        "klaviyo_reviews_average_rating_gK3YrW": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {
-            "product": "{{product}}"
           }
         },
         "variant_picker": {
@@ -50,6 +50,13 @@
             "show_quantity_selector": false,
             "button_color_scheme": "button",
             "buy_button_color_scheme": "button"
+          }
+        },
+        "custom_liquid_dEY3K3": {
+          "type": "custom_liquid",
+          "name": "tabela porownawcza",
+          "settings": {
+            "custom_liquid": "{% comment %}\n  Porównanie: Polyoil vs oliwa z marketu — dwie karty obok siebie\n  Wklej całość do sekcji \"Niestandardowy Liquid\" (Custom Liquid) w customizerze.\n  Kolor akcentu zmienisz w zmiennej --po-accent na górze CSS.\n{% endcomment %}\n\n<style>\n  .po-cmp {\n    --po-accent: #4282b3;          /* niebieski przycisku motywu */\n    --po-navy: #1f4564;            /* granat obramowań/tekstu jak w widgecie subskrypcji */\n    --po-accent-light: #d9e6f2;    /* jasny niebieski jak zaznaczona opcja */\n    max-width: 900px; margin: 0 auto; padding: 24px 0;\n    font-family: inherit; font-size: inherit; color: var(--po-navy);\n  }\n  .po-cmp h2 {\n    text-align: center; font-size: clamp(1.5rem, 3.5vw, 2.2rem);\n    line-height: 1.2; margin: 0 0 28px;\n  }\n\n  .po-cmp-grid {\n    display: grid; grid-template-columns: 1fr 1fr; gap: 24px;\n    align-items: stretch;\n  }\n  .po-cmp-card {\n    background: #fff;\n    border: 1px solid var(--po-navy);   /* jak ramka widgetu subskrypcji */\n    display: flex; flex-direction: column;\n  }\n  .po-cmp-card-head {\n    padding: 16px 22px; text-align: center;\n    font-weight: 600; font-size: .95em;\n    text-transform: uppercase; letter-spacing: .12em;  /* jak napis na przycisku */\n    background: #fff; color: var(--po-navy);\n    border-bottom: 1px solid var(--po-navy);\n  }\n  .po-cmp-card--poly .po-cmp-card-head {\n    background: var(--po-accent); color: #fff;\n    border-bottom-color: var(--po-accent);\n  }\n  .po-cmp-item {\n    padding: 14px 20px; display: flex; gap: 10px; align-items: flex-start;\n  }\n  .po-cmp-item + .po-cmp-item { border-top: 1px solid rgba(31,69,100,.2); }\n  .po-cmp-item-body { font-size: 1em; line-height: 1.5; }\n  .po-cmp-item-label {\n    display: block; font-size: .72em; font-weight: 600;\n    text-transform: uppercase; letter-spacing: .1em;\n    opacity: .65; margin-bottom: 2px;\n  }\n  .po-cmp-card--poly .po-cmp-item { background: var(--po-accent-light); }\n  .po-cmp-card--poly .po-cmp-item-label { opacity: .8; }\n\n  .po-cmp-ico {\n    flex: 0 0 auto; width: 20px; height: 20px; margin-top: 2px;\n  }\n  .po-cmp-ico--ok { color: var(--po-navy); }\n  .po-cmp-ico--no { color: #9aa7b1; }\n\n  @media (max-width: 700px) {\n    .po-cmp-grid { grid-template-columns: 1fr; gap: 20px; }\n  }\n</style>\n\n{%- capture po_ok -%}\n<svg class=\"po-cmp-ico po-cmp-ico--ok\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"20 6 9 17 4 12\"/></svg>\n{%- endcapture -%}\n{%- capture po_no -%}\n<svg class=\"po-cmp-ico po-cmp-ico--no\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" aria-hidden=\"true\"><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/></svg>\n{%- endcapture -%}\n\n<div class=\"po-cmp\">\n  <h2>Polyoil vs oliwa z marketu</h2>\n\n  <div class=\"po-cmp-grid\">\n\n    <!-- ====== KARTA POLYOIL ====== -->\n    <div class=\"po-cmp-card po-cmp-card--poly\">\n      <div class=\"po-cmp-card-head\">Polyoil</div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Polifenole</span>\n          ponad 350&nbsp;mg/kg, potwierdzone badaniem każdej partii\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Pochodzenie</span>\n          jedna odmiana (Koroneiki), Peloponez, Grecja\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Data zbioru</span>\n          wczesny zbiór — listopad 2025, data na butelce\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Data ważności</span>\n          09/2027 — świeża, bieżąca partia\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Badania laboratoryjne</span>\n          certyfikat analizy dostępny dla każdej partii\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Smak</span>\n          wyraźna gorycz i pieprzność — naturalny znak polifenoli\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_ok }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Droga do butelki</span>\n          z gaju do tłoczni w kilka godzin\n        </div>\n      </div>\n    </div>\n\n    <!-- ====== KARTA OLIWA Z MARKETU ====== -->\n    <div class=\"po-cmp-card\">\n      <div class=\"po-cmp-card-head\">Oliwa z marketu</div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Polifenole</span>\n          zwykle niebadane i niedeklarowane\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Pochodzenie</span>\n          mieszanka oliw z różnych krajów UE i spoza UE\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Data zbioru</span>\n          nieznana — producent jej nie podaje\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Data ważności</span>\n          często bliska końca przydatności na półce\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Badania laboratoryjne</span>\n          brak publicznych wyników badań\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Smak</span>\n          płaski, neutralny profil\n        </div>\n      </div>\n\n      <div class=\"po-cmp-item\">\n        {{ po_no }}\n        <div class=\"po-cmp-item-body\">\n          <span class=\"po-cmp-item-label\">Droga do butelki</span>\n          długi łańcuch dostaw, magazynowanie hurtowe\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>"
           }
         },
         "collapsible_content_NghLWy": {
@@ -85,11 +92,12 @@
       },
       "block_order": [
         "title",
-        "price",
         "klaviyo_reviews_average_rating_gK3YrW",
+        "price",
         "variant_picker",
         "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6",
         "buy_buttons",
+        "custom_liquid_dEY3K3",
         "collapsible_content_NghLWy",
         "collapsible_content_KAjL8B",
         "collapsible_content_wGb9pj"
