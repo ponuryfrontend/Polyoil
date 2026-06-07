@@ -55,7 +55,7 @@
         "color_scheme": "scheme-4d7c74f5-d20b-46e6-9cd6-8e3d215c7640",
         "accent_color": "#3485c5",
         "menu": "main-menu",
-        "menu_size": "medium",
+        "menu_size": "large",
         "menu_active_link_icon": "underline",
         "show_line_separator": false,
         "header_position_type": "sticky",
