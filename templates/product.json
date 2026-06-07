@@ -123,9 +123,9 @@
         "scroll_down_arrow": false,
         "product_content_align": "product__info-container--left",
         "padding_top": 0,
-        "padding_bottom": 80,
+        "padding_bottom": 0,
         "mobile_padding_top": 0,
-        "mobile_padding_bottom": 52,
+        "mobile_padding_bottom": 16,
         "margin_bottom": 0,
         "mobile_margin_bottom": 0
       }
@@ -178,9 +178,9 @@
         "product_description_heading": "Add a heading",
         "title_style": "uppercase",
         "decorative_icon": false,
-        "padding_top": 96,
+        "padding_top": 84,
         "padding_bottom": 96,
-        "mobile_padding_top": 64,
+        "mobile_padding_top": 0,
         "mobile_padding_bottom": 64,
         "margin_bottom": 120,
         "mobile_margin_bottom": 60
