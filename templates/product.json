@@ -68,7 +68,6 @@
         },
         "usp_JHdTCE": {
           "type": "usp",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-4",
             "title_style": "uppercase",
@@ -82,6 +81,7 @@
         },
         "free_shipping_bjwCUM": {
           "type": "free_shipping",
+          "disabled": true,
           "settings": {}
         },
         "klaviyo_reviews_product_reviews_summary_rHxUnp": {
