@@ -161,12 +161,12 @@
         "image_mKhRHb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oliwki-zamoczone-w-oliwie-z-oliwek.jpg",
+            "image": "shopify://shop_images/oliwkowy_grecki_gaj.jpg",
             "image_mobile": "shopify://shop_images/oliwki-zamoczone-w-oliwie-z-oliwek-mobile.jpg",
-            "image_style": "image-border-radius--none",
+            "image_style": "image-border-radius--rounded-extra",
             "show_decorative_icon": false,
-            "section_layout": "image_first",
-            "side_text": "Zdrowa i przepyszna oliwa"
+            "section_layout": "text_first",
+            "side_text": "100% jedna odmiana oliwek"
           }
         }
       },
@@ -178,15 +178,15 @@
         "collection": "oleje-spozywcze-oliwa-z-oliwek",
         "color_scheme": "",
         "show_border_bottom": false,
-        "heading": "Naturalne i świeże oliwy z oliwek",
+        "heading": "świeży zbiór, Kalamata 2025/2026",
         "title_style": "normal",
         "heading_size": "h3",
         "heading_icon": false,
-        "subheading": "Dowiedz się więcej o naszych oliwach z greckiej odmiany Koroneiki.",
+        "subheading": "Dowiedz się więcej o naszych oliwach wysokopolifenolowych",
         "link": "/",
         "link_text": "",
         "button_color_scheme": "link link-with-icon",
-        "padding_top": 108,
+        "padding_top": 68,
         "padding_bottom": 0,
         "mobile_padding_top": 84,
         "mobile_padding_bottom": 0,
