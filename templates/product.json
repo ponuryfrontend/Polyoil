@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "pickup_availability_9qjJJc": {
+          "type": "pickup_availability",
+          "settings": {
+            "color_scheme": "background-1",
+            "pickup_drawer_icon": true
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -38,6 +45,19 @@
             "picker_type": "button"
           }
         },
+        "usp_JHdTCE": {
+          "type": "usp",
+          "settings": {
+            "color_scheme": "background-4",
+            "title_style": "uppercase",
+            "heading_01": "DARMOWA DOSTAWA",
+            "content_01": "",
+            "heading_02": "",
+            "content_02": "",
+            "heading_03": "",
+            "content_03": ""
+          }
+        },
         "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6": {
           "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
           "settings": {}
@@ -51,6 +71,14 @@
             "button_color_scheme": "button",
             "buy_button_color_scheme": "button"
           }
+        },
+        "free_shipping_bjwCUM": {
+          "type": "free_shipping",
+          "settings": {}
+        },
+        "klaviyo_reviews_product_reviews_summary_rHxUnp": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews-summary/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
         },
         "collapsible_content_NghLWy": {
           "type": "collapsible_content",
@@ -92,12 +120,16 @@
         }
       },
       "block_order": [
+        "pickup_availability_9qjJJc",
         "title",
         "klaviyo_reviews_average_rating_gK3YrW",
         "price",
         "variant_picker",
+        "usp_JHdTCE",
         "appstle_subscription_appstle_subscription_product_page_widget_nQ7Ln6",
         "buy_buttons",
+        "free_shipping_bjwCUM",
+        "klaviyo_reviews_product_reviews_summary_rHxUnp",
         "collapsible_content_NghLWy",
         "custom_liquid_dEY3K3",
         "collapsible_content_KAjL8B",

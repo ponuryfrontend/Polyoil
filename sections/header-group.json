@@ -17,14 +17,14 @@
         "cf899475-a395-4f0a-b0a3-2e7cf4f0a6fe": {
           "type": "announcement",
           "settings": {
-            "text": "Darmowa dostawa na terenie Polski już od 150 PLN",
+            "text": "Darmowa dostawa",
             "link": ""
           }
         },
         "announcement_bLkrpH": {
           "type": "announcement",
           "settings": {
-            "text": "Bezpieczne płatności BLIK, Klarna, Apple Pay",
+            "text": "Bezpieczne płatności BLIK, Apple Pay, Payu",
             "link": ""
           }
         },
