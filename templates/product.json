@@ -71,8 +71,8 @@
           "settings": {
             "color_scheme": "background-4",
             "title_style": "uppercase",
-            "heading_01": "DARMOWA DOSTAWA",
-            "content_01": "dzień darmowej dostawy",
+            "heading_01": "GWARANCJA SMAKU",
+            "content_01": "masz 14 dni na zwrot",
             "heading_02": "",
             "content_02": "",
             "heading_03": "",
@@ -242,6 +242,35 @@
         "include_margins": true
       }
     },
+    "1780952788ea45d9f1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_apqUJ8": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_apqUJ8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "custom_liquid_UQXJBC": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -335,35 +364,6 @@
         "margin_bottom": 40,
         "mobile_margin_bottom": 28,
         "enable_animation": true
-      }
-    },
-    "1780952788ea45d9f1": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_apqUJ8": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_apqUJ8"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
