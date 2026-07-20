@@ -288,6 +288,14 @@ footer .fcopy{font-size:12.5px;color:var(--muted);}
 .sticky-bar .sb-price{font-family:var(--font-sub);font-weight:600;font-size:17px;}
 .sticky-bar .sb-old{text-decoration:line-through;color:var(--muted);font-size:13px;font-weight:400;margin-right:6px;}
 .sticky-bar .btn{padding:12px 20px;font-size:14.5px;white-space:nowrap;}
+/* E-book showcase */
+.ebook-grid{display:grid;grid-template-columns:0.82fr 1fr;gap:34px;align-items:center;margin-top:8px;}
+.ebook-cover-wrap img{width:100%;border-radius:14px;box-shadow:0 24px 50px rgba(18,63,99,.22);display:block;}
+.ebook-sample-wrap{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:0 14px 34px rgba(18,63,99,.10);}
+.ebook-sample-wrap img{width:100%;border-radius:8px;display:block;}
+.ebook-sample-label{display:block;text-align:center;font-size:12.5px;color:var(--muted);margin-top:10px;}
+.ebook-mail{margin-top:26px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 20px;font-size:15px;font-weight:600;color:var(--blue-deep);text-align:center;}
+@media(max-width:760px){.ebook-grid{grid-template-columns:1fr;gap:22px;}}
 </style>
 </head>
 <body>
@@ -693,6 +701,26 @@ footer .fcopy{font-size:12.5px;color:var(--muted);}
         <p>Dołącz do klientów, którzy już nie wracają do oliwy z marketu.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section section--cream" id="ebook">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Gratis do każdego zestawu</span>
+      <h2>E-book „Lato na łyżce oliwy" · 30 przepisów</h2>
+      <p>Do zestawu 2+1 dołączamy e-book z 30 letnimi przepisami z oliwą: sałatki, pasty, dania z grilla. Pełny kolor, zdjęcie do każdego przepisu.</p>
+    </div>
+    <div class="ebook-grid">
+      <div class="ebook-cover-wrap">
+        <img src="https://cdn.shopify.com/s/files/1/0961/4835/7453/files/ebook-okladka-lato.jpg?v=1784575832&width=700" alt="Okładka e-booka Lato na łyżce oliwy, 30 przepisów na lato z oliwą Polyoil">
+      </div>
+      <div class="ebook-sample-wrap">
+        <img src="https://cdn.shopify.com/s/files/1/0961/4835/7453/files/ebook-przepis-caprese.jpg?v=1784575831&width=800" alt="Przykładowa strona z e-booka: przepis na sałatkę Caprese z oliwą" loading="lazy">
+        <span class="ebook-sample-label">Przykładowa strona z przepisem (Caprese)</span>
+      </div>
+    </div>
+    <div class="ebook-mail">📩 Dostaniesz go na maila gratis: 30 przepisów z oliwą na lato prosto do Twojej skrzynki.</div>
   </div>
 </section>
 
